@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="算法,">
 
 
 
@@ -79,13 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hold your head high">
-<meta property="og:url" content="http://yoursite.com/categories/Markdown/index.html">
+<meta name="description" content="约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历） 一群猴子排成一圈，按1,2,…,n依次编号。 然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。 要求编程模拟此过程，输入m、n, 输出最后那个大王的编号。 用程序模拟该过程，代码如下： 123456">
+<meta name="keywords" content="算法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="约瑟夫环问题（猴子选大王）">
+<meta property="og:url" content="http://yoursite.com/2019/04/16/约瑟夫环问题（猴子选大王）PHP版/index.html">
 <meta property="og:site_name" content="Hold your head high">
+<meta property="og:description" content="约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历） 一群猴子排成一圈，按1,2,…,n依次编号。 然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。 要求编程模拟此过程，输入m、n, 输出最后那个大王的编号。 用程序模拟该过程，代码如下： 123456">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-04-18T11:48:21.753Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hold your head high">
+<meta name="twitter:title" content="约瑟夫环问题（猴子选大王）">
+<meta name="twitter:description" content="约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历） 一群猴子排成一圈，按1,2,…,n依次编号。 然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。 要求编程模拟此过程，输入m、n, 输出最后那个大王的编号。 用程序模拟该过程，代码如下： 123456">
 
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/Markdown/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/16/约瑟夫环问题（猴子选大王）PHP版/">
 
 
 
 
 
-  <title>分类: Markdown | Hold your head high</title>
+  <title>约瑟夫环问题（猴子选大王） | Hold your head high</title>
   
 
 
@@ -140,7 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <a href="https://github.com/lwy7e" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -286,53 +291,178 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>Markdown<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/约瑟夫环问题（猴子选大王）PHP版/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="陆文一">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://iocaffcdn.phphub.org/uploads/avatars/25878_1545473207.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hold your head high">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/03/23/markdown/" itemprop="url">
-              
-                <span itemprop="name">编写文章（基于 Markdown）</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">约瑟夫环问题（猴子选大王）</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-03-23T14:04:24+08:00" content="2019-03-23">
-          03-23
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-16T15:36:52+08:00">
+                2019-04-16
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/PHP/" itemprop="url" rel="index">
+                    <span itemprop="name">PHP</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历）</p>
+<p>一群猴子排成一圈，按1,2,…,n依次编号。</p>
+<p>然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。</p>
+<p>要求编程模拟此过程，输入m、n, 输出最后那个大王的编号。</p>
+<p>用程序模拟该过程，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line"></span><br><span class="line">    function monkeyKing($n, $m)</span><br><span class="line">    &#123;</span><br><span class="line">        $arr = range(1, $n);     //构造一个数组</span><br><span class="line">        $i   = 1;                       //从第一个开始循环</span><br><span class="line"></span><br><span class="line">        while (count($arr) &gt; 1) &#123;          //如果总数大于1</span><br><span class="line"></span><br><span class="line">            if ($i % $m != 0) &#123;</span><br><span class="line">                $arr[] = $arr[$i - 1];    //不被踢出则压入数组尾部</span><br><span class="line">            &#125;</span><br><span class="line">            unset($arr[$i - 1]);          //压入数组然后删除</span><br><span class="line">            $i++;                       //继续循环</span><br><span class="line">        &#125;</span><br><span class="line">        return $arr[$i - 1];             //直到剩下最后一个大王</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    $king = monkeyKing(5, 3);</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">function king($n, $m)</span><br><span class="line">&#123;</span><br><span class="line">    $monkey = range(1, $n);            //模拟建立一个连续数组</span><br><span class="line">    $i      = 0;</span><br><span class="line">    while (count($monkey) &gt; 1) &#123;</span><br><span class="line">        $i    += 1;//开始查数</span><br><span class="line">        $head = array_shift($monkey);   //直接一个一个出列最前面的猴子</span><br><span class="line">        if ($i % $m != 0) &#123;</span><br><span class="line">            array_push($monkey, $head);  //如果没数到m或m的倍数,则把该猴放回尾部去.</span><br><span class="line">        &#125;    //否则就抛弃掉了</span><br><span class="line">    &#125;</span><br><span class="line">    return $monkey[0];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">echo &apos;剩余&apos;, king(3, 4), &apos;号猴子&apos;;</span><br></pre></td></tr></table></figure>
+<p>下面是模拟的过程，对于不剔除的猴子，不断的加入数组尾部：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"> $n = 5</span><br><span class="line"> $m = 3</span><br><span class="line"> $arr = [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line"> $i   $arr</span><br><span class="line"> ---+------------------------</span><br><span class="line"> 1    x 2 3 4 5 1</span><br><span class="line"> 2    x x 3 4 5 1 2</span><br><span class="line">&gt;3    x x x 4 5 1 2</span><br><span class="line"> 4    x x x x 5 1 2 4</span><br><span class="line"> 5    x x x x x 1 2 4 5</span><br><span class="line">&gt;6    x x x x x x 2 4 5</span><br><span class="line"> 7    x x x x x x x 4 5 2</span><br><span class="line"> 8    x x x x x x x x 5 2 4</span><br><span class="line">&gt;9    x x x x x x x x x 2 4</span><br><span class="line"> 10   x x x x x x x x x x 4 2</span><br><span class="line"> 11   x x x x x x x x x x x 2 4</span><br><span class="line">&gt;12   x x x x x x x x x x x x 4</span><br></pre></td></tr></table></figure>
+<p>据说著名犹太历史学家 Josephus有过以下的故事：在罗马人占领乔塔帕特后，39 个犹太人与Josephus及他的朋友躲到一个洞中，39个犹太人决定宁愿死也不要被敌人抓到，于是决定了一个自杀方式，41个人排成一个圆圈，由第1个人开始报数，每报数到第3人该人就必须自杀，然后再由下一个重新报数，直到所有人都自杀身亡为止。然而Josephus 和他的朋友并不想遵从。首先从一个人开始，越过k-2个人（因为第一个人已经被越过），并杀掉第k个人。接着，再越过k-1个人，并杀掉第k个人。这个过程沿着圆圈一直进行，直到最终只剩下一个人留下，这个人就可以继续活着。问题是，给定了和，一开始要站在什么地方才能避免被处决？Josephus要他的朋友先假装遵从，<br>他将朋友与自己安排在第16个与第31个位置，于是逃过了这场死亡游戏。</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/算法/" rel="tag"># 算法</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/13/PHP使用redis/" rel="next" title="PHP使用redis">
+                <i class="fa fa-chevron-left"></i> PHP使用redis
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -340,6 +470,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -621,6 +755,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

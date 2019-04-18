@@ -226,6 +226,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-resources">
+          <a href="/resources/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
+            
+            resources
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -432,6 +442,157 @@
 <p>此处假设有一些人天生有成为伟大设计师的潜质，然后，就是正确的去引导他们。艾伦·佩里斯一针见血地说：”假如每个人都可以学会雕刻，那就得教米开朗基罗哪些事不要去做。对于伟大程序员，也是如此。”Perlis认为，伟大的人有一种内在的特质，这种特质往往比接受训练更重要。但是，这些特质是从哪里来的呢？与生俱来的？还是通过后天勤奋而来的？正如 动画片《料理鼠王》里的幻象大厨Auguste Gusteau说的那样：“谁都能做饭，但只有那些无所畏惧的人才能成为大厨！”我认为“把你生命中的大部分时间花在有针对性的练习上”这种精神，看作一种自愿奉献的精神！但或许“无所畏惧”才是体现这种精神的真谛。或者，就像是《料理鼠王》里那个与 Gusteau 作对的刻薄的美食评论家 Anton Ego 说的那样：“不是任何人都能成为伟大的艺术家，不过，伟大的艺术家可以来自任何地方。”</p>
 <p>So go ahead and buy that Java/Ruby/Javascript/PHP book; you’ll probably get some use out of it. But you won’t change your life, or your real overall expertise as a programmer in 24 hours or 21 days. How about working hard to continually improve over 24 months? Well, now you’re starting to get somewhere…</p>
 <p>所以，尽管买本 Java/Ruby/Javascript/PHP 的书吧。你可能会从中学到点儿有用的东西。但作为一个程序员，在 21 天内或 24 小时内改变你的人生，或者提高你实际的编程水平，这是不可能的。你尝试过连续 24 个月不间断的努力提高自己么？好吧，好吧，你该上路了……</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/约瑟夫环问题（猴子选大王）PHP版/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="陆文一">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://iocaffcdn.phphub.org/uploads/avatars/25878_1545473207.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hold your head high">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/16/约瑟夫环问题（猴子选大王）PHP版/" itemprop="url">约瑟夫环问题（猴子选大王）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-16T15:36:52+08:00">
+                2019-04-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/PHP/" itemprop="url" rel="index">
+                    <span itemprop="name">PHP</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历）</p>
+<p>一群猴子排成一圈，按1,2,…,n依次编号。</p>
+<p>然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。</p>
+<p>要求编程模拟此过程，输入m、n, 输出最后那个大王的编号。</p>
+<p>用程序模拟该过程，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line"></span><br><span class="line">    function monkeyKing($n, $m)</span><br><span class="line">    &#123;</span><br><span class="line">        $arr = range(1, $n);     //构造一个数组</span><br><span class="line">        $i   = 1;                       //从第一个开始循环</span><br><span class="line"></span><br><span class="line">        while (count($arr) &gt; 1) &#123;          //如果总数大于1</span><br><span class="line"></span><br><span class="line">            if ($i % $m != 0) &#123;</span><br><span class="line">                $arr[] = $arr[$i - 1];    //不被踢出则压入数组尾部</span><br><span class="line">            &#125;</span><br><span class="line">            unset($arr[$i - 1]);          //压入数组然后删除</span><br><span class="line">            $i++;                       //继续循环</span><br><span class="line">        &#125;</span><br><span class="line">        return $arr[$i - 1];             //直到剩下最后一个大王</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    $king = monkeyKing(5, 3);</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">function king($n, $m)</span><br><span class="line">&#123;</span><br><span class="line">    $monkey = range(1, $n);            //模拟建立一个连续数组</span><br><span class="line">    $i      = 0;</span><br><span class="line">    while (count($monkey) &gt; 1) &#123;</span><br><span class="line">        $i    += 1;//开始查数</span><br><span class="line">        $head = array_shift($monkey);   //直接一个一个出列最前面的猴子</span><br><span class="line">        if ($i % $m != 0) &#123;</span><br><span class="line">            array_push($monkey, $head);  //如果没数到m或m的倍数,则把该猴放回尾部去.</span><br><span class="line">        &#125;    //否则就抛弃掉了</span><br><span class="line">    &#125;</span><br><span class="line">    return $monkey[0];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">echo &apos;剩余&apos;, king(3, 4), &apos;号猴子&apos;;</span><br></pre></td></tr></table></figure>
+<p>下面是模拟的过程，对于不剔除的猴子，不断的加入数组尾部：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"> $n = 5</span><br><span class="line"> $m = 3</span><br><span class="line"> $arr = [1, 2, 3, 4, 5]</span><br><span class="line"></span><br><span class="line"> $i   $arr</span><br><span class="line"> ---+------------------------</span><br><span class="line"> 1    x 2 3 4 5 1</span><br><span class="line"> 2    x x 3 4 5 1 2</span><br><span class="line">&gt;3    x x x 4 5 1 2</span><br><span class="line"> 4    x x x x 5 1 2 4</span><br><span class="line"> 5    x x x x x 1 2 4 5</span><br><span class="line">&gt;6    x x x x x x 2 4 5</span><br><span class="line"> 7    x x x x x x x 4 5 2</span><br><span class="line"> 8    x x x x x x x x 5 2 4</span><br><span class="line">&gt;9    x x x x x x x x x 2 4</span><br><span class="line"> 10   x x x x x x x x x x 4 2</span><br><span class="line"> 11   x x x x x x x x x x x 2 4</span><br><span class="line">&gt;12   x x x x x x x x x x x x 4</span><br></pre></td></tr></table></figure>
+<p>据说著名犹太历史学家 Josephus有过以下的故事：在罗马人占领乔塔帕特后，39 个犹太人与Josephus及他的朋友躲到一个洞中，39个犹太人决定宁愿死也不要被敌人抓到，于是决定了一个自杀方式，41个人排成一个圆圈，由第1个人开始报数，每报数到第3人该人就必须自杀，然后再由下一个重新报数，直到所有人都自杀身亡为止。然而Josephus 和他的朋友并不想遵从。首先从一个人开始，越过k-2个人（因为第一个人已经被越过），并杀掉第k个人。接着，再越过k-1个人，并杀掉第k个人。这个过程沿着圆圈一直进行，直到最终只剩下一个人留下，这个人就可以继续活着。问题是，给定了和，一开始要站在什么地方才能避免被处决？Josephus要他的朋友先假装遵从，<br>他将朋友与自己安排在第16个与第31个位置，于是逃过了这场死亡游戏。</p>
 
           
         
@@ -1782,162 +1943,13 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/结构化思维/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="陆文一">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://iocaffcdn.phphub.org/uploads/avatars/25878_1545473207.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hold your head high">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/24/结构化思维/" itemprop="url">结构化思维</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-24T15:36:52+08:00">
-                2018-12-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/思维方式/" itemprop="url" rel="index">
-                    <span itemprop="name">思维方式</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="结构化思维"><a href="#结构化思维" class="headerlink" title="结构化思维"></a>结构化思维</h2><p>麦肯锡的7S、BCG的BCG Matrix，也是一种解决问题的结构</p>
-<h3 id="麦肯锡的7S"><a href="#麦肯锡的7S" class="headerlink" title="麦肯锡的7S"></a>麦肯锡的7S</h3><p>麦肯锡7S模型(Mckinsey 7S Model)，简称7s模型，是麦肯锡顾问公司研究中心设计的企业组织七要素，指出了企业在发展过程中必须全面地考虑各方面的情况，包括结构（structure）、制度（system）、风格（style）、员工（staff）、技能（skill）、战略（strategy）、共同的价值观（shared values）。</p>
-<p><strong>结构化思维比你想象得重要一万倍</strong></p>
-<p>下图有15个数字，我需要你在3秒钟内看完并记住它们，试试？</p>
-<p><img src="/2018/12/24/结构化思维/img/1.jpg"></p>
-<p>是不是觉得有点费力？</p>
-<p>那么，如果我换一下，让你记下面这15个数字，试试？</p>
-<p><img src="/2018/12/24/结构化思维/img/2.jpg"></p>
-<p>是不是觉得So easy？</p>
-<p>其实这两组数字是一样的，只是第二组数字的结构更加有规律。</p>
-<p>为什么你很难记住第一组却能够轻松记住第二组呢？因为它更符合我们大脑的使用习惯。</p>
-<p><strong>人类大脑在处理信息的时候，有两个规律：第一，不能一次太多，太多信息会让我们的大脑觉得负荷过大；第二，喜欢有规律的信息。</strong></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
 
 
           </div>
@@ -1983,7 +1995,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -2005,7 +2017,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
