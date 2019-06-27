@@ -81,7 +81,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hold your head high">
-<meta property="og:url" content="https://git.dev.tencent.com/dtid_91728564d792c8fa/lwy7e.git/page/4/index.html">
+<meta property="og:url" content="http://yoursite.com/page/4/index.html">
 <meta property="og:site_name" content="Hold your head high">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
@@ -115,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="https://git.dev.tencent.com/dtid_91728564d792c8fa/lwy7e.git/page/4/">
+  <link rel="canonical" href="http://yoursite.com/page/4/">
 
 
 
@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://git.dev.tencent.com/dtid_91728564d792c8fa/lwy7e.git/git.dev.tencent.com/dtid_91728564d792c8fa/lwy7e.git/2019/03/27/docker入门/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/git.dev.tencent.com/dtid_91728564d792c8fa/lwy7e.git/2019/03/27/docker入门/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="陆文一">
@@ -396,7 +396,7 @@
           
             <h1 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h1><p>Mac：<a href="https://docs.docker.com/docke.." target="_blank" rel="noopener">https://docs.docker.com/docke..</a>.<br>Windows:<a href="https://docs.docker.com/docke.." target="_blank" rel="noopener">https://docs.docker.com/docke..</a>.<br>linux:官网有不同版本的安装的教程<br>ubuntu:<a href="https://docs.docker.com/engin.." target="_blank" rel="noopener">https://docs.docker.com/engin..</a>.</p>
 <h1 id="Docker三个基本概念"><a href="#Docker三个基本概念" class="headerlink" title="Docker三个基本概念"></a>Docker三个基本概念</h1><p>下面这张图非常的经典，很形象地展示了，什么是容器，什么是镜像，什么是仓库，以及三者之间的联系。</p>
-<p><img src="/dtid_91728564d792c8fa/lwy7e.git/2019/03/27/docker入门/d.png" alt="docker"></p>
+<p><img src="/2019/03/27/docker入门/d.png" alt="docker"></p>
 <p>接下来我们来解释一下这张图。现在我们要造一间厨房，在造之前我们首先要干的一件事，就是先列举出我们造厨房需要的东西。我们可能需要一个通了水电煤的房子以及一些必需的厨房用具诸如锅碗瓢勺、煤气灶、冰箱、水槽等等这些东西。现在我们知道需要了什么东西之后，我们就去找这些东西。首先我们先去京东购买一些厨房用具，这些用具就好比我们的Docker镜像，我们厨房的用具到了之后得找个地方把它们放在，不可能随处丢吧，不然后面用的时候就找不到它了，那么我们Docker镜像也是这样，需要一个Docker仓库去存储这些镜像。现在我们有了这些厨房用具之后就可以做饭了吗？答案当然是不能，没水没电没火啊！这时候我们得把厨房用具给装到一个通了水电煤的房子才行，那么Docker镜像也是这样，单纯的Docker镜像是不能用的，它得装到Docker容器中通了水电煤才能使用。等我们装好了厨房用具之后我们就可以开始做饭，那么我们的Docker镜像装到Docker容器之后，我们应用就可以跑起来了。</p>
 <h1 id="Docker常用命令"><a href="#Docker常用命令" class="headerlink" title="Docker常用命令"></a>Docker常用命令</h1><p>1.杀死所有正在运行的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker kill $(docker ps -a -q)</span><br></pre></td></tr></table></figure></p>
 <p>2.删除所有已经停止的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm $(docker ps -a -q)</span><br></pre></td></tr></table></figure></p>
