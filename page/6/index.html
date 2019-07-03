@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/23/markdown/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/27/windows上利用docker搭建lnmp开发环境/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="陆文一">
@@ -320,7 +320,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/lwy7e/2019/03/23/markdown/" itemprop="url">编写文章（基于 Markdown）</a></h1>
+                <a class="post-title-link" href="/lwy7e/2019/03/27/windows上利用docker搭建lnmp开发环境/" itemprop="url">windows上利用docker搭建lnmp开发环境</a></h1>
         
 
         <div class="post-meta">
@@ -332,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-23T14:04:24+08:00">
-                2019-03-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-27T18:53:18+08:00">
+                2019-03-27
               </time>
             
 
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/lwy7e/categories/Markdown/" itemprop="url" rel="index">
-                    <span itemprop="name">Markdown</span>
+                  <a href="/lwy7e/categories/docker/" itemprop="url" rel="index">
+                    <span itemprop="name">docker</span>
                   </a>
                 </span>
 
@@ -394,50 +394,37 @@
       
         
           
-            <h1 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h1><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"title"</span></span><br></pre></td></tr></table></figure></p>
-<p>当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md<br>这个文件就是将要发布到网站上的原始文件，用于记录文章内容<br>下面，我们将要在这个文件中写下我们的第一篇博客</p>
-<h1 id="编写文章（基于-Markdown）"><a href="#编写文章（基于-Markdown）" class="headerlink" title="编写文章（基于 Markdown）"></a>编写文章（基于 Markdown）</h1><h2 id="Markdown-简介"><a href="#Markdown-简介" class="headerlink" title="Markdown 简介"></a>Markdown 简介</h2><p>但是，在我们正式写下第一个文字前，我们需要了解一下究竟什么是 Markdown？<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式</span><br></pre></td></tr></table></figure></p>
-<p>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</p>
-<h2 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h2><p>在编写 Markdown 时，博主强烈的推荐给大家一款简洁易用的 Markdown 编辑器 —— Typora<br>按照官方的说法就是 简单而强大，它不仅支持原生的语法，也支持对应的快捷键，更重要的是它还可以 实时预览<br>这里附上 Typora 的下载地址：<a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
-<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"><span class="comment">### 三级标题</span></span><br><span class="line"><span class="comment">#### 四级标题</span></span><br><span class="line"><span class="comment">##### 五级标题</span></span><br><span class="line"><span class="comment">###### 六级标题</span></span><br></pre></td></tr></table></figure>
-<h3 id="粗体、斜体、删除线和下划线"><a href="#粗体、斜体、删除线和下划线" class="headerlink" title="粗体、斜体、删除线和下划线"></a>粗体、斜体、删除线和下划线</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
-<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 文字引用</span><br></pre></td></tr></table></figure>
-<h3 id="公式块"><a href="#公式块" class="headerlink" title="公式块"></a>公式块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">数学公式</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
-<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">方法一：---</span><br><span class="line"></span><br><span class="line">方法二：+++</span><br><span class="line"></span><br><span class="line">方法三：***</span><br></pre></td></tr></table></figure>
-<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 有序列表项</span><br><span class="line"></span><br><span class="line">* 无序列表项</span><br><span class="line"></span><br><span class="line">+ 无序列表项</span><br><span class="line"></span><br><span class="line">- 无序列表项</span><br></pre></td></tr></table></figure>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">表头1|表头2</span><br><span class="line">-|-|-</span><br><span class="line">内容11|内容12</span><br><span class="line">内容21|内容22</span><br></pre></td></tr></table></figure>
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">方法一：[链接文字](链接地址 <span class="string">"链接描述"</span>)</span><br><span class="line">例如：[示例链接](https://www.example.com/ <span class="string">"示例链接"</span>)</span><br><span class="line"></span><br><span class="line">方法二：&lt;链接地址&gt;</span><br><span class="line">例如：&lt;https://www.example.com/&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![图片文字](图片地址 <span class="string">"图片描述"</span>)</span><br><span class="line">例如：![示例图片](https://www.example.com/example.PNG <span class="string">"示例图片"</span>)</span><br></pre></td></tr></table></figure>
-<p>说明：在 Hexo中 插入图片时，请按照以下的步骤进行设置<br>将 站点配置文件 中的 post_asset_folder 选项的值设置为 true<br>在站点文件夹中打开 git bash，输入命令 npm install hexo-asset-image –save 安装插件<br>这样，当使用 hexo new title 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，<br>我们只需将图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可<br>例如，在资源文件夹（就是那个与 title 同名的文件夹）中添加图片 example.PNG，<br>则可以在对应的文章中使用语句 <img src="/2019/03/23/markdown/title/example.PNG" alt="示例图片" title="示例图片"> 添加图片(注意有感叹号!前面)</p>
-<h1 id="Hexo-NexT-内置标签"><a href="#Hexo-NexT-内置标签" class="headerlink" title="Hexo NexT 内置标签"></a>Hexo <a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="noopener">NexT 内置标签</a></h1><p>「标签」(Tag Plugin) 是 Hexo 提供的一种快速生成特定内容的方式。<br>例如，在标准 Markdown 语法中，我们无法指定图片的大小。<br>这种情景，我们即可使用标签来解决。 Hexo 内置来许多标签来帮助写作者可以更快的书写，<br>完整的标签列表 可以参考 Hexo 官网。 另外，Hexo 也开放来接口给主题，使主题有可能提供给写作者更简便的写作方法。<br>以下标签便是 NexT 主题当前提供的标签。</p>
-<h2 id="文本居中的引用"><a href="#文本居中的引用" class="headerlink" title="文本居中的引用"></a>文本居中的引用</h2><p>此标签将生成一个带上下分割线的引用，同时引用内文本将自动居中。<br>文本居中时，多行文本若长度不等，视觉上会显得不对称，因此建议在引用单行文本的场景下使用。<br>例如作为文章开篇引用 或者 结束语之前的总结引用。</p>
-<p>使用方式</p>
-<ul>
-<li>HTML方式：使用这种方式时，给 img 添加属性 class=”blockquote-center” 即可。</li>
-<li>标签方式：使用 centerquote 或者 简写 cq。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">此标签要求 NexT 的版本在 0.4.5 或以上。 若你正在使用的版本比较低，可以选择使用 HTML 方式。</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span><br><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/2019/03/23/markdown/blockquote-center.png" alt="示例图片" title="示例图片"></p>
-<h2 id="突破容器宽度限制的图片"><a href="#突破容器宽度限制的图片" class="headerlink" title="突破容器宽度限制的图片"></a>突破容器宽度限制的图片</h2><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片,<br>图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
-<p>使用方式</p>
-<ul>
-<li>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。</li>
-<li>标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">此标签要求 NexT 的版本在 0.4.5 或以上。 若你正在使用的版本比较低，可以选择使用 HTML 方式。</span><br><span class="line">如果要在图片下显示图片的标题，请使用 标签方式 并给定 title 属性。</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;full-image&quot; 是必须的 --&gt;</span><br><span class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% fullimage /image-url, alt, title %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 别名 --&gt;</span><br><span class="line">&#123;% fi /image-url, alt, title %&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Bootstrap-Callout-由-ivan-nginx-贡献"><a href="#Bootstrap-Callout-由-ivan-nginx-贡献" class="headerlink" title="Bootstrap Callout 由 ivan-nginx 贡献"></a>Bootstrap Callout 由 <a href="https://github.com/iissnan/hexo-theme-next/pull/1160" target="_blank" rel="noopener">ivan-nginx</a> 贡献</h2><p>这些样式出现在 <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> 的官方文档中。</p>
-<p>使用方式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p>
-<p>其中，class_name 可以是以下列表中的一个值：</p>
-<ul>
-<li>default</li>
-<li>primary</li>
-<li>success</li>
-<li>info</li>
-<li>warning</li>
-<li>danger</li>
-</ul>
+            <h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1><p>到<a href="https://www.docker.com/" target="_blank" rel="noopener">docker官网</a>进行安装<br>书籍:Docker技术入门与实战 </p>
+<h1 id="开启Hyper-V"><a href="#开启Hyper-V" class="headerlink" title="开启Hyper-V"></a>开启Hyper-V</h1><p>打开控制面板 - 程序和功能 - 启用或关闭Windows功能，勾选Hyper-V，然后点击确定即可，如图：<br><img src="/2019/03/27/windows上利用docker搭建lnmp开发环境/v.png" alt="Hyper-V"></p>
+<p>下载windwos版本docker安装包 地址</p>
+<h1 id="修改docker-镜像仓库"><a href="#修改docker-镜像仓库" class="headerlink" title="修改docker 镜像仓库"></a>修改docker 镜像仓库</h1><p>安装好后登陆docker（没有账号的请到官网进行注册）<br><img src="/2019/03/27/windows上利用docker搭建lnmp开发环境/v2.png" alt="Hyper-V"></p>
+<h1 id="使用git快速获取lnmp"><a href="#使用git快速获取lnmp" class="headerlink" title="使用git快速获取lnmp"></a>使用git快速获取lnmp</h1><p>切换到你准备安装dnmp的目录下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/shmilylbelva/dnmp.git</span><br><span class="line">$ cd dnmp</span><br><span class="line">$ docker-compose up</span><br></pre></td></tr></table></figure>
+<p>完成以后可以在浏览器中访问localhost，出现界面代表ok</p>
+<h1 id="站点部署"><a href="#站点部署" class="headerlink" title="站点部署"></a>站点部署</h1><p><code>c:\Windows\System32\Drivers\etc\hosts</code></p>
+<p>本文有默认加了两个站点：<a href="http://www.site1.com（同localhost）和www.site2.com。" target="_blank" rel="noopener">www.site1.com（同localhost）和www.site2.com。</a><br>要在本地访问这两个域名，需要修改你的hosts文件，添加以下两行：<br>127.0.0.1 <a href="http://www.site1.com" target="_blank" rel="noopener">www.site1.com</a><br>127.0.0.1 <a href="http://www.site2.com" target="_blank" rel="noopener">www.site2.com</a><br>其中，<a href="http://www.site2.com为支持SSL/https和HTTP/2的示例站点。" target="_blank" rel="noopener">www.site2.com为支持SSL/https和HTTP/2的示例站点。</a><br>因为站点2的SSL采用自签名方式，所以浏览器有安全提示，继续访问就可以了，自己的站点用第三方SSL认证证书替换即可。<br>如果只用到站点1，把站点2相关的目录和配置文件删除：<br>./conf/nginx/conf.d/certs/site2/<br>./conf/nginx/conf.d/site2.conf<br>./www/site2/<br>重启容器内的Nginx生效：<br>docker exec -it dlnmp_nginx nginx -s reload</p>
+<h1 id="dnmp目录结构"><a href="#dnmp目录结构" class="headerlink" title="dnmp目录结构"></a>dnmp目录结构</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── conf                        配置目录</span><br><span class="line">│   ├── conf.d              站点配置文件目录</span><br><span class="line">│   │   ├── certs           SSL认证文件、密钥和加密文件目录</span><br><span class="line">│   │   │   └── site2       站点2的认证文件目录</span><br><span class="line">│   │   ├── site1.conf      站点1 Nginx配置文件</span><br><span class="line">│   │   └── site2.conf      站点2 Nginx配置文件 </span><br><span class="line">│   ├── my.cnf              MySQL配置文件           </span><br><span class="line">│   ├── nginx.conf          Nginx通用配置文件</span><br><span class="line">│   ├── php-fpm.d           PHP-FPM配置目录</span><br><span class="line">│   │   └── www.conf        PHP-FPM配置文件</span><br><span class="line">│   ├── php.ini             PHP配置文件</span><br><span class="line">├── docker-compose.yml        默认容器启动配置文件</span><br><span class="line">├── docker-compose54.yml      php5.4容器启动配置文件</span><br><span class="line">├── docker-compose56.yml      php5.6容器启动配置文件</span><br><span class="line">├── log                         日志目录</span><br><span class="line">│   ├── mysql.slow.log                   MySQL日志</span><br><span class="line">│   ├── nginx.error.log                   Nginx日志</span><br><span class="line">│   ├── nginx.site1.error.log          </span><br><span class="line">│   ├── nginx.site2.error.log           </span><br><span class="line">├── mysql                       MySQL数据文件目录</span><br><span class="line">├── php                          PHP版本目录</span><br><span class="line">└── www                         站点根目录</span><br><span class="line">    ├── site1                   站点1根目录</span><br><span class="line">    └── site2                   站点2根目录</span><br></pre></td></tr></table></figure>
+<h1 id="MYSQL说明"><a href="#MYSQL说明" class="headerlink" title="MYSQL说明"></a>MYSQL说明</h1><p>在docker-compose.yml文件中，我们指定了MySQL数据库root用户的密码为123456。<br>所以，我们就可以在主机中通过：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -h 127.0.0.1 -u root -p  #linux中</span><br><span class="line">#在mac中需要先切换到mysql容器</span><br><span class="line">$ docker container ls  #列出容器列表</span><br><span class="line">$ docker exec -it 775c7c9ee1e1 /bin/bash  #其中的容器id不用输入完整的mysql容器id,一般3位就能区分。</span><br><span class="line">$ mysql -h 127.0.0.1 -uroot -p</span><br></pre></td></tr></table></figure>
+<p>输入密码，就可以进入MySQL命令行。</p>
+<p>说明：这里MySQL的连接主机不能用localhost，因为MySQL客户端默认使用unix socket方式连接，应该直接用本地IP。<br>在PHP代码中的使用方式与在主机中使用稍有不同，如下：<br>$pdo = new PDO(‘mysql:host=mysql;dbname=site1’, ‘root’, ‘123456’);<br>其中，host的值就是在docker-compose.yml里面指定的MySQL容器的名称。<br>这是因为PHP代码是在FPM容器中，FPM容器启动时会自动在/etc/hosts中加上：<br>172.17.0.2 mysql 11e55f91c4c3 dnmp_mysql<br>就是说，mysql自动指向了MySQL容器动态生成的IP。<br>注意，这里用php进行mysql连接测试会失败（在docker-compose up的时候注意到存在mbind:Operation not permitted 这个提示）</p>
+<p>，所以还需要处理上述问题。<br>进入刚刚的mysql终端,内容大致如下。host为 % 表示不限制ip localhost表示本机使用 plugin非mysql_native_password 则需要修改密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; select host,user,plugin,authentication_string from mysql.user;    </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+  </span><br><span class="line">| host      | user             | plugin                | authentication_string                                                  |  </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+  </span><br><span class="line">| %         | root             | caching_sha2_password | $A$005$^]RQB&#125;j~t!      .#v)3.UogPRFu8VJA5/GKEbK5edEQlMT5sHw2n72zYJNlIbo3 |  </span><br><span class="line">| localhost | mysql.infoschema | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | mysql.session    | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | mysql.sys        | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | root             | caching_sha2_password | $A$005$Y6&amp;q!59^Fmh)@-6TG58J3F5+3I/HI9L|JCadNG+-+d6W+1D_UFW+7MRD7F3 |  </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<p>依次进行如下操作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#更新一下用户的密码 root用户密码为newpassword  </span><br><span class="line">mysql&gt; ALTER USER &apos;root&apos;@&apos;%&apos; IDENTIFIED WITH mysql_native_password BY &apos;123456&apos;;</span><br><span class="line">ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED WITH mysql_native_password BY &apos;123456&apos;;</span><br><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure>
+<p>mysql连接问题解决。</p>
+<h1 id="修改docker-compose-yml"><a href="#修改docker-compose-yml" class="headerlink" title="修改docker-compose.yml"></a>修改docker-compose.yml</h1><p>如果容器已经生成，回头再编辑docker-compose.yml，用<br>docker-compose up<br>命令会直接启动原来的容器，修改的内容不会体现在启动的容器里。<br>所以，要使修改的docker-compose.yml生效，需要以下4步：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker stop dnmp_nginx                      # 第一步：停止容器</span><br><span class="line">$ docker rm dnmp_nginx                        # 第二步：删除容器</span><br><span class="line"># !!第三步：重启Docker服务!!</span><br><span class="line">$ docker-compose up -d --no-deps --build mysql  # 第四步：重新启动容器</span><br></pre></td></tr></table></figure>
+<p>其中最后一条命令参数作用：/<br>-d：后台执行<br>–no-deps：不启动link的容器<br>–build：启动容器前先构建镜像</p>
+<h1 id="使用Redis"><a href="#使用Redis" class="headerlink" title="使用Redis"></a>使用Redis</h1><p>Redis使用和MySQL类似。<br>不过需要注意的是在./php/php72中的Dockerfile末尾的</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#源码安装方式</span><br><span class="line">#php7 can install</span><br><span class="line"></span><br><span class="line">ENV PHPREDIS_VERSION 4.0.0</span><br><span class="line">RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/$PHPREDIS_VERSION.tar.gz \</span><br><span class="line">    &amp;&amp; tar xfz /tmp/redis.tar.gz \</span><br><span class="line">    &amp;&amp; rm -r /tmp/redis.tar.gz \</span><br><span class="line">    &amp;&amp; mkdir -p /usr/src/php/ext \</span><br><span class="line">    &amp;&amp; mv phpredis-$PHPREDIS_VERSION /usr/src/php/ext/redis \</span><br><span class="line">    &amp;&amp; docker-php-ext-install redis \</span><br><span class="line">    &amp;&amp; rm -rf /usr/src/php</span><br></pre></td></tr></table></figure>
+<p>如果是php5.X那么这里应该是这样的（需要自己添加到对应的Dockerfile中，然后再docker-compose up）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#PECL安装方式</span><br><span class="line">#php5 can install</span><br><span class="line"></span><br><span class="line">#添加扩展 redis pecl方式</span><br><span class="line">RUN apk add --no-cache --update libmemcached-libs zlib</span><br><span class="line">RUN set -xe \</span><br><span class="line">    &amp;&amp; apk add --no-cache --update --virtual .phpize-deps $PHPIZE_DEPS \</span><br><span class="line">    &amp;&amp; pecl install -o -f redis  \</span><br><span class="line">    &amp;&amp; echo &quot;extension=redis.so&quot; &gt; /usr/local/etc/php/conf.d/redis.ini</span><br><span class="line">    &amp;&amp; rm -rf /usr/share/php \</span><br><span class="line">    &amp;&amp; rm -rf /tmp/* \</span><br><span class="line">    &amp;&amp; apk del  .phpize-deps</span><br></pre></td></tr></table></figure>
+<p>在主机和容器内部都通过地址127.0.0.1，端口6379访问。</p>
+<p>PHP则是跨容器访问，host参数用redis（links指定的名称），端口用6379。<br>修改site2的index.php文件内容如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">    $redis = new Redis();</span><br><span class="line">    $redis-&gt;connect(&apos;192.168.1.11&apos;,6379);//修改成自己的ip</span><br><span class="line">    $redis-&gt;set(&apos;name&apos;,&apos;青波&apos;);</span><br><span class="line">    echo $redis-&gt;get(&apos;name&apos;);</span><br><span class="line">        //检测是否连接成功</span><br></pre></td></tr></table></figure>
+<p>浏览器访问<a href="http://www.site2.com,出现‘青波’即代表redis扩展正常。" target="_blank" rel="noopener">www.site2.com,出现‘青波’即代表redis扩展正常。</a></p>
+<p>作者：回眸淡然笑<br>链接：<a href="https://www.jianshu.com/p/31c09a3e0d5d" target="_blank" rel="noopener">https://www.jianshu.com/p/31c09a3e0d5d</a><br>来源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p>
 
           
         
@@ -477,7 +464,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/lwy7e/page/5/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/lwy7e/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/10/">10</a><a class="extend next" rel="next" href="/lwy7e/page/7/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/lwy7e/page/5/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/lwy7e/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/11/">11</a><a class="extend next" rel="next" href="/lwy7e/page/7/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -525,7 +512,7 @@
               
                 <a href="/lwy7e/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -547,7 +534,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/lwy7e/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

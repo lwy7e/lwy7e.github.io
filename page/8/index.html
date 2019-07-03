@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/01/04/程序是怎么跑起来的/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/23/Go语言入门笔记/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="陆文一">
@@ -320,7 +320,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/lwy7e/2019/01/04/程序是怎么跑起来的/" itemprop="url">程序是怎么跑起来的</a></h1>
+                <a class="post-title-link" href="/lwy7e/2019/03/23/Go语言入门笔记/" itemprop="url">Go 语言入门笔记</a></h1>
         
 
         <div class="post-meta">
@@ -332,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-04T22:19:01+08:00">
-                2019-01-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-23T11:34:24+08:00">
+                2019-03-23
               </time>
             
 
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/lwy7e/categories/读书笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">读书笔记</span>
+                  <a href="/lwy7e/categories/Go/" itemprop="url" rel="index">
+                    <span itemprop="name">Go</span>
                   </a>
                 </span>
 
@@ -394,10 +394,43 @@
       
         
           
-            <h3 id="对程序员来说CPU是什么？"><a href="#对程序员来说CPU是什么？" class="headerlink" title="对程序员来说CPU是什么？"></a>对程序员来说CPU是什么？</h3><h4 id="热身"><a href="#热身" class="headerlink" title="热身"></a>热身</h4><p>1.程序是什么？<br>2.程序是由什么组成的？<br>3.什么是机器语言？<br>4.正在运行的程序存储在什么位置？<br>5.什么是内存地址？<br>6.计算机的构成原件中，负责程序的解释和运行的是哪个？</p>
-<p>我的第一次回答<br>1.计算机运行的命令<br>2.由指令和数据组成<br>3.计算机可以直接识别的语言<br>4.内存<br>5.一个位置<br>6.CPU</p>
-<p>答案</p>
-<p>1.指示计算机每一步动作的一组指令<br>2.指令和数据<br>3.CPU可以直接识别并使用的语言<br>4.内存<br>5.内存中，用来表示命令和数据存储位置的数值<br>6.CPU</p>
+            <p><img src="/2019/03/23/Go语言入门笔记/go.jpg" alt="Go"><br>工作需要入手了 Go 语言，开发使用的是 <a href="https://github.com/gin-gonic/gin" target="_blank" rel="noopener">Gin Web Framework</a>。</p>
+<p>入手后发现语法和 PHP/Python/JavaScript 之流还是有很大区别的，下面对学习资料及入门笔记做简单整理。</p>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
+<li>Go（又称 Golang ），由 Google 开发</li>
+<li>是一种 静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言</li>
+<li>语法接近 C 语言，但对于变量的声明有所不同</li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装</p>
+<p>直接前往 <a href="https://golang.org/dl/" target="_blank" rel="noopener">官网</a> 下载 .pkg 完成安装。<br><a href="https://studygolang.com/" target="_blank" rel="noopener">go中文网</a> 一般去中文网下载</p>
+<h3 id="workspace"><a href="#workspace" class="headerlink" title="workspace"></a>workspace</h3><p>用于放置一个 go 程序员的所有 go 代码和依赖。</p>
+<h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><ul>
+<li>src：go源码文件</li>
+<li>pkg：package object（编译出的二进制文件）</li>
+<li>bin：可执行文件（编译出的二进制文件）</li>
+</ul>
+<h3 id="GOPATH"><a href="#GOPATH" class="headerlink" title="GOPATH"></a>GOPATH</h3><p>workspace 的路径，默认为 $HOME/go。</p>
+<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>直接安装 .pkg 文件未设置 GOPATH，需要手动设置一下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export GOPATH=$HOME/go</span><br></pre></td></tr></table></figure></p>
+<p>加入环境变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$PATH:$(go env GOPATH)/bin</span><br></pre></td></tr></table></figure>
+<h2 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h2><p>折腾了好久别的编辑器还是用<a href="https://www.jetbrains.com/" target="_blank" rel="noopener">jetbrains</a> 的 <a href="https://www.jetbrains.com/go/?fromMenu" target="_blank" rel="noopener">GoLand</a> 舒服<br>功能齐全</p>
+<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello, World"></a>Hello, World</h2><h3 id="入口"><a href="#入口" class="headerlink" title="入口"></a>入口</h3><p>程序入口为：main.main。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">func main() &#123;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="hello-go"><a href="#hello-go" class="headerlink" title="hello.go"></a>hello.go</h3><p>创建新项目：/Users/jjy/go/src/exampleProject，新建文件 hello.go：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import &quot;fmt&quot;</span><br><span class="line"></span><br><span class="line">func main() &#123;</span><br><span class="line">    fmt.Println(&quot;Hello, world!&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><p>在 /Users/jjy/go/src/exampleProject 下执行 go install，之后会在 $GOPATH/bin 目录下生成编译后的二进制程序。</p>
+<h3 id="执行"><a href="#执行" class="headerlink" title="执行"></a>执行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">▶ /Users/jjy/go/bin/exampleProject</span><br><span class="line">Hello, world!</span><br></pre></td></tr></table></figure>
+<h2 id="一些特性"><a href="#一些特性" class="headerlink" title="一些特性"></a>一些特性</h2><ul>
+<li>函数多返回值</li>
+<li><a href="https://studygolang.com/articles/13875" target="_blank" rel="noopener">并发编程</a></li>
+<li><a href="http://www.runoob.com/go/go-error-handling.html" target="_blank" rel="noopener">错误处理</a></li>
+</ul>
+<h2 id="学习资料"><a href="#学习资料" class="headerlink" title="学习资料"></a>学习资料</h2><ul>
+<li><a href="https://go-zh.org/doc/" target="_blank" rel="noopener">官方文档</a></li>
+<li><a href="https://cyent.github.io/golang/method/overview/" target="_blank" rel="noopener">Go语言学习 - cyent笔记</a></li>
+<li><a href="https://github.com/avelino/awesome-go" target="_blank" rel="noopener">awesome-go</a></li>
+<li><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN" target="_blank" rel="noopener">Go 入门指南</a></li>
+</ul>
 
           
         
@@ -437,7 +470,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/lwy7e/page/7/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/lwy7e/page/9/">9</a><a class="page-number" href="/lwy7e/page/10/">10</a><a class="extend next" rel="next" href="/lwy7e/page/9/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/lwy7e/page/7/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/lwy7e/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/11/">11</a><a class="extend next" rel="next" href="/lwy7e/page/9/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -485,7 +518,7 @@
               
                 <a href="/lwy7e/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -507,7 +540,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/lwy7e/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

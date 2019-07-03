@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/27/windows上利用docker搭建lnmp开发环境/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/27/docker入门/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="陆文一">
@@ -320,7 +320,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/lwy7e/2019/03/27/windows上利用docker搭建lnmp开发环境/" itemprop="url">windows上利用docker搭建lnmp开发环境</a></h1>
+                <a class="post-title-link" href="/lwy7e/2019/03/27/docker入门/" itemprop="url">docker入门</a></h1>
         
 
         <div class="post-meta">
@@ -332,7 +332,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-27T18:53:18+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-27T19:30:50+08:00">
                 2019-03-27
               </time>
             
@@ -394,37 +394,24 @@
       
         
           
-            <h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1><p>到<a href="https://www.docker.com/" target="_blank" rel="noopener">docker官网</a>进行安装<br>书籍:Docker技术入门与实战 </p>
-<h1 id="开启Hyper-V"><a href="#开启Hyper-V" class="headerlink" title="开启Hyper-V"></a>开启Hyper-V</h1><p>打开控制面板 - 程序和功能 - 启用或关闭Windows功能，勾选Hyper-V，然后点击确定即可，如图：<br><img src="/2019/03/27/windows上利用docker搭建lnmp开发环境/v.png" alt="Hyper-V"></p>
-<p>下载windwos版本docker安装包 地址</p>
-<h1 id="修改docker-镜像仓库"><a href="#修改docker-镜像仓库" class="headerlink" title="修改docker 镜像仓库"></a>修改docker 镜像仓库</h1><p>安装好后登陆docker（没有账号的请到官网进行注册）<br><img src="/2019/03/27/windows上利用docker搭建lnmp开发环境/v2.png" alt="Hyper-V"></p>
-<h1 id="使用git快速获取lnmp"><a href="#使用git快速获取lnmp" class="headerlink" title="使用git快速获取lnmp"></a>使用git快速获取lnmp</h1><p>切换到你准备安装dnmp的目录下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/shmilylbelva/dnmp.git</span><br><span class="line">$ cd dnmp</span><br><span class="line">$ docker-compose up</span><br></pre></td></tr></table></figure>
-<p>完成以后可以在浏览器中访问localhost，出现界面代表ok</p>
-<h1 id="站点部署"><a href="#站点部署" class="headerlink" title="站点部署"></a>站点部署</h1><p><code>c:\Windows\System32\Drivers\etc\hosts</code></p>
-<p>本文有默认加了两个站点：<a href="http://www.site1.com（同localhost）和www.site2.com。" target="_blank" rel="noopener">www.site1.com（同localhost）和www.site2.com。</a><br>要在本地访问这两个域名，需要修改你的hosts文件，添加以下两行：<br>127.0.0.1 <a href="http://www.site1.com" target="_blank" rel="noopener">www.site1.com</a><br>127.0.0.1 <a href="http://www.site2.com" target="_blank" rel="noopener">www.site2.com</a><br>其中，<a href="http://www.site2.com为支持SSL/https和HTTP/2的示例站点。" target="_blank" rel="noopener">www.site2.com为支持SSL/https和HTTP/2的示例站点。</a><br>因为站点2的SSL采用自签名方式，所以浏览器有安全提示，继续访问就可以了，自己的站点用第三方SSL认证证书替换即可。<br>如果只用到站点1，把站点2相关的目录和配置文件删除：<br>./conf/nginx/conf.d/certs/site2/<br>./conf/nginx/conf.d/site2.conf<br>./www/site2/<br>重启容器内的Nginx生效：<br>docker exec -it dlnmp_nginx nginx -s reload</p>
-<h1 id="dnmp目录结构"><a href="#dnmp目录结构" class="headerlink" title="dnmp目录结构"></a>dnmp目录结构</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── conf                        配置目录</span><br><span class="line">│   ├── conf.d              站点配置文件目录</span><br><span class="line">│   │   ├── certs           SSL认证文件、密钥和加密文件目录</span><br><span class="line">│   │   │   └── site2       站点2的认证文件目录</span><br><span class="line">│   │   ├── site1.conf      站点1 Nginx配置文件</span><br><span class="line">│   │   └── site2.conf      站点2 Nginx配置文件 </span><br><span class="line">│   ├── my.cnf              MySQL配置文件           </span><br><span class="line">│   ├── nginx.conf          Nginx通用配置文件</span><br><span class="line">│   ├── php-fpm.d           PHP-FPM配置目录</span><br><span class="line">│   │   └── www.conf        PHP-FPM配置文件</span><br><span class="line">│   ├── php.ini             PHP配置文件</span><br><span class="line">├── docker-compose.yml        默认容器启动配置文件</span><br><span class="line">├── docker-compose54.yml      php5.4容器启动配置文件</span><br><span class="line">├── docker-compose56.yml      php5.6容器启动配置文件</span><br><span class="line">├── log                         日志目录</span><br><span class="line">│   ├── mysql.slow.log                   MySQL日志</span><br><span class="line">│   ├── nginx.error.log                   Nginx日志</span><br><span class="line">│   ├── nginx.site1.error.log          </span><br><span class="line">│   ├── nginx.site2.error.log           </span><br><span class="line">├── mysql                       MySQL数据文件目录</span><br><span class="line">├── php                          PHP版本目录</span><br><span class="line">└── www                         站点根目录</span><br><span class="line">    ├── site1                   站点1根目录</span><br><span class="line">    └── site2                   站点2根目录</span><br></pre></td></tr></table></figure>
-<h1 id="MYSQL说明"><a href="#MYSQL说明" class="headerlink" title="MYSQL说明"></a>MYSQL说明</h1><p>在docker-compose.yml文件中，我们指定了MySQL数据库root用户的密码为123456。<br>所以，我们就可以在主机中通过：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -h 127.0.0.1 -u root -p  #linux中</span><br><span class="line">#在mac中需要先切换到mysql容器</span><br><span class="line">$ docker container ls  #列出容器列表</span><br><span class="line">$ docker exec -it 775c7c9ee1e1 /bin/bash  #其中的容器id不用输入完整的mysql容器id,一般3位就能区分。</span><br><span class="line">$ mysql -h 127.0.0.1 -uroot -p</span><br></pre></td></tr></table></figure>
-<p>输入密码，就可以进入MySQL命令行。</p>
-<p>说明：这里MySQL的连接主机不能用localhost，因为MySQL客户端默认使用unix socket方式连接，应该直接用本地IP。<br>在PHP代码中的使用方式与在主机中使用稍有不同，如下：<br>$pdo = new PDO(‘mysql:host=mysql;dbname=site1’, ‘root’, ‘123456’);<br>其中，host的值就是在docker-compose.yml里面指定的MySQL容器的名称。<br>这是因为PHP代码是在FPM容器中，FPM容器启动时会自动在/etc/hosts中加上：<br>172.17.0.2 mysql 11e55f91c4c3 dnmp_mysql<br>就是说，mysql自动指向了MySQL容器动态生成的IP。<br>注意，这里用php进行mysql连接测试会失败（在docker-compose up的时候注意到存在mbind:Operation not permitted 这个提示）</p>
-<p>，所以还需要处理上述问题。<br>进入刚刚的mysql终端,内容大致如下。host为 % 表示不限制ip localhost表示本机使用 plugin非mysql_native_password 则需要修改密码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; select host,user,plugin,authentication_string from mysql.user;    </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+  </span><br><span class="line">| host      | user             | plugin                | authentication_string                                                  |  </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+  </span><br><span class="line">| %         | root             | caching_sha2_password | $A$005$^]RQB&#125;j~t!      .#v)3.UogPRFu8VJA5/GKEbK5edEQlMT5sHw2n72zYJNlIbo3 |  </span><br><span class="line">| localhost | mysql.infoschema | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | mysql.session    | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | mysql.sys        | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE                              |  </span><br><span class="line">| localhost | root             | caching_sha2_password | $A$005$Y6&amp;q!59^Fmh)@-6TG58J3F5+3I/HI9L|JCadNG+-+d6W+1D_UFW+7MRD7F3 |  </span><br><span class="line">+-----------+------------------+-----------------------+------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
-<p>依次进行如下操作</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#更新一下用户的密码 root用户密码为newpassword  </span><br><span class="line">mysql&gt; ALTER USER &apos;root&apos;@&apos;%&apos; IDENTIFIED WITH mysql_native_password BY &apos;123456&apos;;</span><br><span class="line">ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED WITH mysql_native_password BY &apos;123456&apos;;</span><br><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure>
-<p>mysql连接问题解决。</p>
-<h1 id="修改docker-compose-yml"><a href="#修改docker-compose-yml" class="headerlink" title="修改docker-compose.yml"></a>修改docker-compose.yml</h1><p>如果容器已经生成，回头再编辑docker-compose.yml，用<br>docker-compose up<br>命令会直接启动原来的容器，修改的内容不会体现在启动的容器里。<br>所以，要使修改的docker-compose.yml生效，需要以下4步：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ docker stop dnmp_nginx                      # 第一步：停止容器</span><br><span class="line">$ docker rm dnmp_nginx                        # 第二步：删除容器</span><br><span class="line"># !!第三步：重启Docker服务!!</span><br><span class="line">$ docker-compose up -d --no-deps --build mysql  # 第四步：重新启动容器</span><br></pre></td></tr></table></figure>
-<p>其中最后一条命令参数作用：/<br>-d：后台执行<br>–no-deps：不启动link的容器<br>–build：启动容器前先构建镜像</p>
-<h1 id="使用Redis"><a href="#使用Redis" class="headerlink" title="使用Redis"></a>使用Redis</h1><p>Redis使用和MySQL类似。<br>不过需要注意的是在./php/php72中的Dockerfile末尾的</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#源码安装方式</span><br><span class="line">#php7 can install</span><br><span class="line"></span><br><span class="line">ENV PHPREDIS_VERSION 4.0.0</span><br><span class="line">RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/$PHPREDIS_VERSION.tar.gz \</span><br><span class="line">    &amp;&amp; tar xfz /tmp/redis.tar.gz \</span><br><span class="line">    &amp;&amp; rm -r /tmp/redis.tar.gz \</span><br><span class="line">    &amp;&amp; mkdir -p /usr/src/php/ext \</span><br><span class="line">    &amp;&amp; mv phpredis-$PHPREDIS_VERSION /usr/src/php/ext/redis \</span><br><span class="line">    &amp;&amp; docker-php-ext-install redis \</span><br><span class="line">    &amp;&amp; rm -rf /usr/src/php</span><br></pre></td></tr></table></figure>
-<p>如果是php5.X那么这里应该是这样的（需要自己添加到对应的Dockerfile中，然后再docker-compose up）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#PECL安装方式</span><br><span class="line">#php5 can install</span><br><span class="line"></span><br><span class="line">#添加扩展 redis pecl方式</span><br><span class="line">RUN apk add --no-cache --update libmemcached-libs zlib</span><br><span class="line">RUN set -xe \</span><br><span class="line">    &amp;&amp; apk add --no-cache --update --virtual .phpize-deps $PHPIZE_DEPS \</span><br><span class="line">    &amp;&amp; pecl install -o -f redis  \</span><br><span class="line">    &amp;&amp; echo &quot;extension=redis.so&quot; &gt; /usr/local/etc/php/conf.d/redis.ini</span><br><span class="line">    &amp;&amp; rm -rf /usr/share/php \</span><br><span class="line">    &amp;&amp; rm -rf /tmp/* \</span><br><span class="line">    &amp;&amp; apk del  .phpize-deps</span><br></pre></td></tr></table></figure>
-<p>在主机和容器内部都通过地址127.0.0.1，端口6379访问。</p>
-<p>PHP则是跨容器访问，host参数用redis（links指定的名称），端口用6379。<br>修改site2的index.php文件内容如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">    $redis = new Redis();</span><br><span class="line">    $redis-&gt;connect(&apos;192.168.1.11&apos;,6379);//修改成自己的ip</span><br><span class="line">    $redis-&gt;set(&apos;name&apos;,&apos;青波&apos;);</span><br><span class="line">    echo $redis-&gt;get(&apos;name&apos;);</span><br><span class="line">        //检测是否连接成功</span><br></pre></td></tr></table></figure>
-<p>浏览器访问<a href="http://www.site2.com,出现‘青波’即代表redis扩展正常。" target="_blank" rel="noopener">www.site2.com,出现‘青波’即代表redis扩展正常。</a></p>
-<p>作者：回眸淡然笑<br>链接：<a href="https://www.jianshu.com/p/31c09a3e0d5d" target="_blank" rel="noopener">https://www.jianshu.com/p/31c09a3e0d5d</a><br>来源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p>
+            <h1 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h1><p>Mac：<a href="https://docs.docker.com/docke.." target="_blank" rel="noopener">https://docs.docker.com/docke..</a>.<br>Windows:<a href="https://docs.docker.com/docke.." target="_blank" rel="noopener">https://docs.docker.com/docke..</a>.<br>linux:官网有不同版本的安装的教程<br>ubuntu:<a href="https://docs.docker.com/engin.." target="_blank" rel="noopener">https://docs.docker.com/engin..</a>.</p>
+<h1 id="Docker三个基本概念"><a href="#Docker三个基本概念" class="headerlink" title="Docker三个基本概念"></a>Docker三个基本概念</h1><p>下面这张图非常的经典，很形象地展示了，什么是容器，什么是镜像，什么是仓库，以及三者之间的联系。</p>
+<p><img src="/2019/03/27/docker入门/d.png" alt="docker"></p>
+<p>接下来我们来解释一下这张图。现在我们要造一间厨房，在造之前我们首先要干的一件事，就是先列举出我们造厨房需要的东西。我们可能需要一个通了水电煤的房子以及一些必需的厨房用具诸如锅碗瓢勺、煤气灶、冰箱、水槽等等这些东西。现在我们知道需要了什么东西之后，我们就去找这些东西。首先我们先去京东购买一些厨房用具，这些用具就好比我们的Docker镜像，我们厨房的用具到了之后得找个地方把它们放在，不可能随处丢吧，不然后面用的时候就找不到它了，那么我们Docker镜像也是这样，需要一个Docker仓库去存储这些镜像。现在我们有了这些厨房用具之后就可以做饭了吗？答案当然是不能，没水没电没火啊！这时候我们得把厨房用具给装到一个通了水电煤的房子才行，那么Docker镜像也是这样，单纯的Docker镜像是不能用的，它得装到Docker容器中通了水电煤才能使用。等我们装好了厨房用具之后我们就可以开始做饭，那么我们的Docker镜像装到Docker容器之后，我们应用就可以跑起来了。</p>
+<h1 id="Docker常用命令"><a href="#Docker常用命令" class="headerlink" title="Docker常用命令"></a>Docker常用命令</h1><p>1.杀死所有正在运行的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker kill $(docker ps -a -q)</span><br></pre></td></tr></table></figure></p>
+<p>2.删除所有已经停止的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm $(docker ps -a -q)</span><br></pre></td></tr></table></figure></p>
+<p>3.删除所有镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi $(docker images -q)</span><br></pre></td></tr></table></figure></p>
+<p>4.关闭容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker stop CONTAINER ID或者NAMES</span><br></pre></td></tr></table></figure></p>
+<p>5.重新启动关闭的容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start CONTAINER ID或者NAMES</span><br></pre></td></tr></table></figure></p>
+<p>6.移除本地容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rm CONTAINER ID或者NAMES</span><br></pre></td></tr></table></figure></p>
+<p>7.查看本地容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker ps  //查看正在运行的容器</span><br><span class="line">docker ps -a //查看所有容器</span><br></pre></td></tr></table></figure></p>
+<p>8.查看本地镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker images</span><br></pre></td></tr></table></figure></p>
+<p>9.创建镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t name:tag Dockerfile路径</span><br></pre></td></tr></table></figure></p>
+<p>10.修改本地镜像标记<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker tag  IMAGE ID  name:tag </span><br><span class="line">docker rmi name:tag</span><br></pre></td></tr></table></figure></p>
+<p>11.删除本地镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi name:tag或者IMAGE ID</span><br></pre></td></tr></table></figure></p>
+<p>12.进入容器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker exec -it IMAGE ID或者NAMES /bin/bash</span><br></pre></td></tr></table></figure></p>
+<p>13.获取镜像中心的镜像<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull name:tag</span><br></pre></td></tr></table></figure></p>
+<p>14.获取容器的端口映射配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker port CONTAINER ID或者NAMES</span><br></pre></td></tr></table></figure></p>
 
           
         
@@ -464,7 +451,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/lwy7e/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/lwy7e/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/10/">10</a><a class="extend next" rel="next" href="/lwy7e/page/6/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/lwy7e/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/lwy7e/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/11/">11</a><a class="extend next" rel="next" href="/lwy7e/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -512,7 +499,7 @@
               
                 <a href="/lwy7e/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -534,7 +521,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/lwy7e/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

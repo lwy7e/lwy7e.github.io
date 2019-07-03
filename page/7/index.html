@@ -301,7 +301,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/23/Go语言入门笔记/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/lwy7e/2019/03/23/markdown/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="陆文一">
@@ -320,7 +320,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/lwy7e/2019/03/23/Go语言入门笔记/" itemprop="url">Go 语言入门笔记</a></h1>
+                <a class="post-title-link" href="/lwy7e/2019/03/23/markdown/" itemprop="url">编写文章（基于 Markdown）</a></h1>
         
 
         <div class="post-meta">
@@ -332,7 +332,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-23T11:34:24+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-23T14:04:24+08:00">
                 2019-03-23
               </time>
             
@@ -355,8 +355,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/lwy7e/categories/Go/" itemprop="url" rel="index">
-                    <span itemprop="name">Go</span>
+                  <a href="/lwy7e/categories/Markdown/" itemprop="url" rel="index">
+                    <span itemprop="name">Markdown</span>
                   </a>
                 </span>
 
@@ -394,42 +394,49 @@
       
         
           
-            <p><img src="/2019/03/23/Go语言入门笔记/go.jpg" alt="Go"><br>工作需要入手了 Go 语言，开发使用的是 <a href="https://github.com/gin-gonic/gin" target="_blank" rel="noopener">Gin Web Framework</a>。</p>
-<p>入手后发现语法和 PHP/Python/JavaScript 之流还是有很大区别的，下面对学习资料及入门笔记做简单整理。</p>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
-<li>Go（又称 Golang ），由 Google 开发</li>
-<li>是一种 静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言</li>
-<li>语法接近 C 语言，但对于变量的声明有所不同</li>
+            <h1 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h1><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"title"</span></span><br></pre></td></tr></table></figure></p>
+<p>当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md<br>这个文件就是将要发布到网站上的原始文件，用于记录文章内容<br>下面，我们将要在这个文件中写下我们的第一篇博客</p>
+<h1 id="编写文章（基于-Markdown）"><a href="#编写文章（基于-Markdown）" class="headerlink" title="编写文章（基于 Markdown）"></a>编写文章（基于 Markdown）</h1><h2 id="Markdown-简介"><a href="#Markdown-简介" class="headerlink" title="Markdown 简介"></a>Markdown 简介</h2><p>但是，在我们正式写下第一个文字前，我们需要了解一下究竟什么是 Markdown？<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式</span><br></pre></td></tr></table></figure></p>
+<p>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</p>
+<h2 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a>Markdown 语法</h2><p>在编写 Markdown 时，博主强烈的推荐给大家一款简洁易用的 Markdown 编辑器 —— Typora<br>按照官方的说法就是 简单而强大，它不仅支持原生的语法，也支持对应的快捷键，更重要的是它还可以 实时预览<br>这里附上 Typora 的下载地址：<a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"><span class="comment">### 三级标题</span></span><br><span class="line"><span class="comment">#### 四级标题</span></span><br><span class="line"><span class="comment">##### 五级标题</span></span><br><span class="line"><span class="comment">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+<h3 id="粗体、斜体、删除线和下划线"><a href="#粗体、斜体、删除线和下划线" class="headerlink" title="粗体、斜体、删除线和下划线"></a>粗体、斜体、删除线和下划线</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+<h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 文字引用</span><br></pre></td></tr></table></figure>
+<h3 id="公式块"><a href="#公式块" class="headerlink" title="公式块"></a>公式块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">数学公式</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">方法一：---</span><br><span class="line"></span><br><span class="line">方法二：+++</span><br><span class="line"></span><br><span class="line">方法三：***</span><br></pre></td></tr></table></figure>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 有序列表项</span><br><span class="line"></span><br><span class="line">* 无序列表项</span><br><span class="line"></span><br><span class="line">+ 无序列表项</span><br><span class="line"></span><br><span class="line">- 无序列表项</span><br></pre></td></tr></table></figure>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">表头1|表头2</span><br><span class="line">-|-|-</span><br><span class="line">内容11|内容12</span><br><span class="line">内容21|内容22</span><br></pre></td></tr></table></figure>
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">方法一：[链接文字](链接地址 <span class="string">"链接描述"</span>)</span><br><span class="line">例如：[示例链接](https://www.example.com/ <span class="string">"示例链接"</span>)</span><br><span class="line"></span><br><span class="line">方法二：&lt;链接地址&gt;</span><br><span class="line">例如：&lt;https://www.example.com/&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![图片文字](图片地址 <span class="string">"图片描述"</span>)</span><br><span class="line">例如：![示例图片](https://www.example.com/example.PNG <span class="string">"示例图片"</span>)</span><br></pre></td></tr></table></figure>
+<p>说明：在 Hexo中 插入图片时，请按照以下的步骤进行设置<br>将 站点配置文件 中的 post_asset_folder 选项的值设置为 true<br>在站点文件夹中打开 git bash，输入命令 npm install hexo-asset-image –save 安装插件<br>这样，当使用 hexo new title 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，<br>我们只需将图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可<br>例如，在资源文件夹（就是那个与 title 同名的文件夹）中添加图片 example.PNG，<br>则可以在对应的文章中使用语句 <img src="/2019/03/23/markdown/title/example.PNG" alt="示例图片" title="示例图片"> 添加图片(注意有感叹号!前面)</p>
+<h1 id="Hexo-NexT-内置标签"><a href="#Hexo-NexT-内置标签" class="headerlink" title="Hexo NexT 内置标签"></a>Hexo <a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="noopener">NexT 内置标签</a></h1><p>「标签」(Tag Plugin) 是 Hexo 提供的一种快速生成特定内容的方式。<br>例如，在标准 Markdown 语法中，我们无法指定图片的大小。<br>这种情景，我们即可使用标签来解决。 Hexo 内置来许多标签来帮助写作者可以更快的书写，<br>完整的标签列表 可以参考 Hexo 官网。 另外，Hexo 也开放来接口给主题，使主题有可能提供给写作者更简便的写作方法。<br>以下标签便是 NexT 主题当前提供的标签。</p>
+<h2 id="文本居中的引用"><a href="#文本居中的引用" class="headerlink" title="文本居中的引用"></a>文本居中的引用</h2><p>此标签将生成一个带上下分割线的引用，同时引用内文本将自动居中。<br>文本居中时，多行文本若长度不等，视觉上会显得不对称，因此建议在引用单行文本的场景下使用。<br>例如作为文章开篇引用 或者 结束语之前的总结引用。</p>
+<p>使用方式</p>
+<ul>
+<li>HTML方式：使用这种方式时，给 img 添加属性 class=”blockquote-center” 即可。</li>
+<li>标签方式：使用 centerquote 或者 简写 cq。</li>
 </ul>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装</p>
-<p>直接前往 <a href="https://golang.org/dl/" target="_blank" rel="noopener">官网</a> 下载 .pkg 完成安装。<br><a href="https://studygolang.com/" target="_blank" rel="noopener">go中文网</a> 一般去中文网下载</p>
-<h3 id="workspace"><a href="#workspace" class="headerlink" title="workspace"></a>workspace</h3><p>用于放置一个 go 程序员的所有 go 代码和依赖。</p>
-<h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><ul>
-<li>src：go源码文件</li>
-<li>pkg：package object（编译出的二进制文件）</li>
-<li>bin：可执行文件（编译出的二进制文件）</li>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">此标签要求 NexT 的版本在 0.4.5 或以上。 若你正在使用的版本比较低，可以选择使用 HTML 方式。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</span><br><span class="line">&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签别名 --&gt;</span><br><span class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/2019/03/23/markdown/blockquote-center.png" alt="示例图片" title="示例图片"></p>
+<h2 id="突破容器宽度限制的图片"><a href="#突破容器宽度限制的图片" class="headerlink" title="突破容器宽度限制的图片"></a>突破容器宽度限制的图片</h2><p>当使用此标签引用图片时，图片将自动扩大 26%，并突破文章容器的宽度。 此标签使用于需要突出显示的图片,<br>图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式（详细参看底下示例）：</p>
+<p>使用方式</p>
+<ul>
+<li>HTML方式：使用这种方式时，为 img 添加属性 class=”full-image”即可。</li>
+<li>标签方式：使用 fullimage 或者 简写 fi， 并传递图片地址、 alt 和 title 属性即可。 属性之间以逗号分隔。</li>
 </ul>
-<h3 id="GOPATH"><a href="#GOPATH" class="headerlink" title="GOPATH"></a>GOPATH</h3><p>workspace 的路径，默认为 $HOME/go。</p>
-<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>直接安装 .pkg 文件未设置 GOPATH，需要手动设置一下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export GOPATH=$HOME/go</span><br></pre></td></tr></table></figure></p>
-<p>加入环境变量：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$PATH:$(go env GOPATH)/bin</span><br></pre></td></tr></table></figure>
-<h2 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h2><p>折腾了好久别的编辑器还是用<a href="https://www.jetbrains.com/" target="_blank" rel="noopener">jetbrains</a> 的 <a href="https://www.jetbrains.com/go/?fromMenu" target="_blank" rel="noopener">GoLand</a> 舒服<br>功能齐全</p>
-<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello, World"></a>Hello, World</h2><h3 id="入口"><a href="#入口" class="headerlink" title="入口"></a>入口</h3><p>程序入口为：main.main。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">func main() &#123;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="hello-go"><a href="#hello-go" class="headerlink" title="hello.go"></a>hello.go</h3><p>创建新项目：/Users/jjy/go/src/exampleProject，新建文件 hello.go：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line">import &quot;fmt&quot;</span><br><span class="line"></span><br><span class="line">func main() &#123;</span><br><span class="line">    fmt.Println(&quot;Hello, world!&quot;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><p>在 /Users/jjy/go/src/exampleProject 下执行 go install，之后会在 $GOPATH/bin 目录下生成编译后的二进制程序。</p>
-<h3 id="执行"><a href="#执行" class="headerlink" title="执行"></a>执行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">▶ /Users/jjy/go/bin/exampleProject</span><br><span class="line">Hello, world!</span><br></pre></td></tr></table></figure>
-<h2 id="一些特性"><a href="#一些特性" class="headerlink" title="一些特性"></a>一些特性</h2><ul>
-<li>函数多返回值</li>
-<li><a href="https://studygolang.com/articles/13875" target="_blank" rel="noopener">并发编程</a></li>
-<li><a href="http://www.runoob.com/go/go-error-handling.html" target="_blank" rel="noopener">错误处理</a></li>
-</ul>
-<h2 id="学习资料"><a href="#学习资料" class="headerlink" title="学习资料"></a>学习资料</h2><ul>
-<li><a href="https://go-zh.org/doc/" target="_blank" rel="noopener">官方文档</a></li>
-<li><a href="https://cyent.github.io/golang/method/overview/" target="_blank" rel="noopener">Go语言学习 - cyent笔记</a></li>
-<li><a href="https://github.com/avelino/awesome-go" target="_blank" rel="noopener">awesome-go</a></li>
-<li><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN" target="_blank" rel="noopener">Go 入门指南</a></li>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">此标签要求 NexT 的版本在 0.4.5 或以上。 若你正在使用的版本比较低，可以选择使用 HTML 方式。</span><br><span class="line">如果要在图片下显示图片的标题，请使用 标签方式 并给定 title 属性。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</span><br><span class="line">&lt;!-- 其中 class=&quot;full-image&quot; 是必须的 --&gt;</span><br><span class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</span><br><span class="line">&#123;% fullimage /image-url, alt, title %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- 别名 --&gt;</span><br><span class="line">&#123;% fi /image-url, alt, title %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Bootstrap-Callout-由-ivan-nginx-贡献"><a href="#Bootstrap-Callout-由-ivan-nginx-贡献" class="headerlink" title="Bootstrap Callout 由 ivan-nginx 贡献"></a>Bootstrap Callout 由 <a href="https://github.com/iissnan/hexo-theme-next/pull/1160" target="_blank" rel="noopener">ivan-nginx</a> 贡献</h2><p>这些样式出现在 <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> 的官方文档中。</p>
+<p>使用方式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note class_name %&#125; Content (md partial supported) &#123;% endnote %&#125;</span><br></pre></td></tr></table></figure></p>
+<p>其中，class_name 可以是以下列表中的一个值：</p>
+<ul>
+<li>default</li>
+<li>primary</li>
+<li>success</li>
+<li>info</li>
+<li>warning</li>
+<li>danger</li>
 </ul>
 
           
@@ -470,7 +477,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/lwy7e/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/lwy7e/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/10/">10</a><a class="extend next" rel="next" href="/lwy7e/page/8/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/lwy7e/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/lwy7e/">1</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/lwy7e/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/lwy7e/page/11/">11</a><a class="extend next" rel="next" href="/lwy7e/page/8/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -518,7 +525,7 @@
               
                 <a href="/lwy7e/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -540,7 +547,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/lwy7e/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
