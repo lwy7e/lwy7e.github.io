@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Go 语言入门笔记</title>
-    <url>/2019/03/23/Go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</url>
+    <url>/lwy7e/2019/03/23/Go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p><img src="https://hexo-lwy.oss-cn-hangzhou.aliyuncs.com/hexo/go.jpg" alt="Go"><br>工作需要入手了 Go 语言，开发使用的是 <a href="https://github.com/gin-gonic/gin">Gin Web Framework</a>。</p>
 <p>入手后发现语法和 PHP/Python/JavaScript 之流还是有很大区别的，下面对学习资料及入门笔记做简单整理。</p>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><ul>
@@ -54,7 +54,7 @@
   </entry>
   <entry>
     <title>PHP使用redis</title>
-    <url>/2019/04/13/PHP%E4%BD%BF%E7%94%A8redis/</url>
+    <url>/lwy7e/2019/04/13/PHP%E4%BD%BF%E7%94%A8redis/</url>
     <content><![CDATA[<h1 id="PHP使用redis"><a href="#PHP使用redis" class="headerlink" title="PHP使用redis"></a>PHP使用redis</h1><h2 id="连接到-redis-服务"><a href="#连接到-redis-服务" class="headerlink" title="连接到 redis 服务"></a>连接到 redis 服务</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">    //连接本地的 Redis 服务</span><br><span class="line">   $redis = new Redis();</span><br><span class="line">   $redis-&gt;connect(&#x27;127.0.0.1&#x27;, 6379);</span><br><span class="line">   //redis设置的密码</span><br><span class="line">   $redis-&gt;auth(&#x27;xinglian272&#x27;);</span><br><span class="line">   //链接库  不行就是默认0</span><br><span class="line">   $redis-&gt;select(2);</span><br><span class="line">   echo &quot;Connection to server successfully&quot;;</span><br><span class="line">         //查看服务是否运行</span><br><span class="line">   echo &quot;Server is running: &quot; . $redis-&gt;ping();</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="String-字符串"><a href="#String-字符串" class="headerlink" title="String(字符串)"></a>String(字符串)</h2><h3 id="set-get"><a href="#set-get" class="headerlink" title="set get"></a>set get</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">   //连接本地的 Redis 服务</span><br><span class="line">   $redis = new Redis();</span><br><span class="line">   $redis-&gt;connect(&#x27;127.0.0.1&#x27;, 6379);</span><br><span class="line">   //设置 redis 字符串数据</span><br><span class="line">   $redis-&gt;set(&quot;tutorial-name&quot;, &quot;Redis tutorial&quot;);</span><br><span class="line">   // 获取存储的数据并输出</span><br><span class="line">   $redis-&gt;get(&quot;tutorial-name&quot;);</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
@@ -209,7 +209,7 @@
   </entry>
   <entry>
     <title>docker入门</title>
-    <url>/2019/03/27/docker%E5%85%A5%E9%97%A8/</url>
+    <url>/lwy7e/2019/03/27/docker%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h1 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h1><p>Mac：<a href="https://docs.docker.com/docke">https://docs.docker.com/docke</a>…<br>Windows:<a href="https://docs.docker.com/docke">https://docs.docker.com/docke</a>…<br>linux:官网有不同版本的安装的教程<br>ubuntu:<a href="https://docs.docker.com/engin">https://docs.docker.com/engin</a>…</p>
 <h1 id="Docker三个基本概念"><a href="#Docker三个基本概念" class="headerlink" title="Docker三个基本概念"></a>Docker三个基本概念</h1><p>下面这张图非常的经典，很形象地展示了，什么是容器，什么是镜像，什么是仓库，以及三者之间的联系。</p>
 <p><img src="https://hexo-lwy.oss-cn-hangzhou.aliyuncs.com/docker%E5%85%A5%E9%97%A8/d.png" alt="docker"></p>
@@ -251,7 +251,7 @@
   </entry>
   <entry>
     <title>windows上利用docker搭建lnmp开发环境</title>
-    <url>/2019/03/27/windows%E4%B8%8A%E5%88%A9%E7%94%A8docker%E6%90%AD%E5%BB%BAlnmp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
+    <url>/lwy7e/2019/03/27/windows%E4%B8%8A%E5%88%A9%E7%94%A8docker%E6%90%AD%E5%BB%BAlnmp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<h1 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h1><p>到<a href="https://www.docker.com/">docker官网</a>进行安装<br>书籍:Docker技术入门与实战 </p>
 <h1 id="开启Hyper-V"><a href="#开启Hyper-V" class="headerlink" title="开启Hyper-V"></a>开启Hyper-V</h1><p>打开控制面板 - 程序和功能 - 启用或关闭Windows功能，勾选Hyper-V，然后点击确定即可，如图：<br><img src="https://hexo-lwy.oss-cn-hangzhou.aliyuncs.com/hexo/v.png" alt="Hyper-V"></p>
 <p>下载windwos版本docker安装包 地址</p>
@@ -297,7 +297,7 @@
   </entry>
   <entry>
     <title>为什么学生不喜欢上学</title>
-    <url>/2018/12/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/</url>
+    <url>/lwy7e/2018/12/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/</url>
     <content><![CDATA[<h3 id="为什么学生不喜欢上学"><a href="#为什么学生不喜欢上学" class="headerlink" title="为什么学生不喜欢上学"></a>为什么学生不喜欢上学</h3><p>   用你的梦想和理想引领你的一生，要用感恩真诚助人圆梦的心态引领你的一生，要用执着无惧乐观的态度引领你的一生。如果你做到了这些，因缘会给你一切你所应得的。<br>   不要被信条所惑，盲从信条就是活在别人思考的结果里。不要让别人的意见淹没了你内在的心声。最重要的，拥有跟随内心与直觉的勇气，你的内心与直觉多少已经知道那你真正想要成为什么样的人，任何其他事物都是次要的。</p>
 ]]></content>
       <categories>
@@ -309,7 +309,7 @@
   </entry>
   <entry>
     <title>编写文章（基于 Markdown）</title>
-    <url>/2019/03/23/markdown/</url>
+    <url>/lwy7e/2019/03/23/markdown/</url>
     <content><![CDATA[<h1 id="创建文章"><a href="#创建文章" class="headerlink" title="创建文章"></a>创建文章</h1><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;title&quot;</span></span><br></pre></td></tr></table></figure>
 <p>当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md<br>这个文件就是将要发布到网站上的原始文件，用于记录文章内容<br>下面，我们将要在这个文件中写下我们的第一篇博客</p>
@@ -373,7 +373,7 @@
   </entry>
   <entry>
     <title>程序是怎么跑起来的</title>
-    <url>/2020/09/28/%E7%A8%8B%E5%BA%8F%E6%98%AF%E6%80%8E%E4%B9%88%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84/</url>
+    <url>/lwy7e/2020/09/28/%E7%A8%8B%E5%BA%8F%E6%98%AF%E6%80%8E%E4%B9%88%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84/</url>
     <content><![CDATA[<h3 id="对程序员来说CPU是什么？"><a href="#对程序员来说CPU是什么？" class="headerlink" title="对程序员来说CPU是什么？"></a>对程序员来说CPU是什么？</h3><h4 id="热身"><a href="#热身" class="headerlink" title="热身"></a>热身</h4><p>1.程序是什么？<br>2.程序是由什么组成的？<br>3.什么是机器语言？<br>4.正在运行的程序存储在什么位置？<br>5.什么是内存地址？<br>6.计算机的构成原件中，负责程序的解释和运行的是哪个？</p>
 <p>我的第一次回答<br>1.计算机运行的命令<br>2.由指令和数据组成<br>3.计算机可以直接识别的语言<br>4.内存<br>5.一个位置<br>6.CPU</p>
 <p>答案</p>
@@ -388,7 +388,7 @@
   </entry>
   <entry>
     <title>约瑟夫环问题（猴子选大王）</title>
-    <url>/2019/04/16/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%88%E7%8C%B4%E5%AD%90%E9%80%89%E5%A4%A7%E7%8E%8B%EF%BC%89PHP%E7%89%88/</url>
+    <url>/lwy7e/2019/04/16/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%88%E7%8C%B4%E5%AD%90%E9%80%89%E5%A4%A7%E7%8E%8B%EF%BC%89PHP%E7%89%88/</url>
     <content><![CDATA[<p>约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历）</p>
 <p>一群猴子排成一圈，按1,2,…,n依次编号。</p>
 <p>然后从第1只开始数，数到第m只,把它踢出圈，从它后面再开始数，再数到第m只，在把它踢出去…，如此不停的进行下去，直到最后只剩下一只猴子为止，那只猴子就叫做大王。</p>
@@ -413,7 +413,7 @@
   </entry>
   <entry>
     <title>李开复自传</title>
-    <url>/2018/12/24/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <url>/lwy7e/2018/12/24/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="价值不是你拥有多少-而是你留下多少"><a href="#价值不是你拥有多少-而是你留下多少" class="headerlink" title="价值不是你拥有多少,而是你留下多少."></a>价值不是你拥有多少,而是你留下多少.</h3><p>   用你的梦想和理想引领你的一生，要用感恩真诚助人圆梦的心态引领你的一生，要用执着无惧乐观的态度引领你的一生。如果你做到了这些，因缘会给你一切你所应得的。<br>   不要被信条所惑，盲从信条就是活在别人思考的结果里。不要让别人的意见淹没了你内在的心声。最重要的，拥有跟随内心与直觉的勇气，你的内心与直觉多少已经知道那你真正想要成为什么样的人，任何其他事物都是次要的。</p>
 ]]></content>
       <categories>
@@ -425,7 +425,7 @@
   </entry>
   <entry>
     <title>十年学会编程</title>
-    <url>/2020/09/28/%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B/</url>
+    <url>/lwy7e/2020/09/28/%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<h3 id="Teach-Yourself-Programming-in-Ten-Years"><a href="#Teach-Yourself-Programming-in-Ten-Years" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h3><h4 id="Peter-NorviG"><a href="#Peter-NorviG" class="headerlink" title="Peter NorviG"></a>Peter NorviG</h4><h3 id="Why-is-everyone-in-such-a-rush？"><a href="#Why-is-everyone-in-such-a-rush？" class="headerlink" title="Why is everyone in such a rush？"></a>Why is everyone in such a rush？</h3><p>为何每个人都急于求成?<br>Walk into any bookstore, and you’ll see how to Teach Yourself Java in 24 Hours alongside endless variations offering to teach C, SQL, Ruby, Algorithms, and so on in a few days or hours. The Amazon advanced search for [title: teach, yourself, hours, since: 2000 and found 512 such books. Of the top ten, nine are programming books (the other is about bookkeeping). Similar results come from replacing “teach yourself” with “learn” or “hours” with “days.”</p>
 <p>随便走进一家书店，都会看到类似《24小时学会Java》这样的书，旁边摆着的是大量诸如在几天，几小时之内学会C语言，SQL，Ruby以及算法这样的书。如果使用Amazon上的高级搜索，使用title: teach, yourself, hours, since: 2000这个关键字来搜索，将会返回512本书。最靠前的10本书中，有9本是编程的书（唯一的例外是一本记账的书）。如果把关键字”teach yourself”替换成”learn”，或者将”hours”替换成”days”，返回的结果大同小异。</p>
 <p>The conclusion is that either people are in a big rush to learn about programming, or that programming is somehow fabulously easier to learn than anything else. Felleisen et al. give a nod to this trend in their book How to Design Programs, when they say “Bad programming is easy. Idiots can learn it in 21 days, even if they are dummies.” The Abtruse Goose comic also had their take.</p>
@@ -483,7 +483,7 @@
   </entry>
   <entry>
     <title>PHP函数</title>
-    <url>/2019/07/03/PHP/php%E6%95%B0%E7%BB%84/</url>
+    <url>/lwy7e/2019/07/03/PHP/php%E6%95%B0%E7%BB%84/</url>
     <content><![CDATA[<p>我在正文开头定义了一个：<a name="divtop"></a></p>
 <h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a><a href="#%E6%95%B0%E7%BB%84-1">数组</a></h3><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2-1">字符串</a></h3><h3 id="多字节字符串"><a href="#多字节字符串" class="headerlink" title="多字节字符串"></a><a href="#%E5%A4%9A%E5%AD%97%E8%8A%82%E5%AD%97%E7%AC%A6%E4%B8%B2-1">多字节字符串</a></h3><h3 id="变量处理"><a href="#变量处理" class="headerlink" title="变量处理"></a><a href="#%E5%8F%98%E9%87%8F%E5%A4%84%E7%90%86-1">变量处理</a></h3><h3 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a><a href="#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F-1">文件系统</a></h3><h3 id="目录处理"><a href="#目录处理" class="headerlink" title="目录处理"></a><a href="#%E7%9B%AE%E5%BD%95%E5%A4%84%E7%90%86-1">目录处理</a></h3><h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a><a href="#%E6%95%B0%E5%AD%A6-1">数学</a></h3><h3 id="类和对象"><a href="#类和对象" class="headerlink" title="类和对象"></a><a href="#%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1-1">类和对象</a></h3><h3 id="字符类型检测"><a href="#字符类型检测" class="headerlink" title="字符类型检测"></a><a href="#%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%9E%8B%E6%A3%80%E6%B5%8B-1">字符类型检测</a></h3><h3 id="日期和时间"><a href="#日期和时间" class="headerlink" title="日期和时间"></a><a href="#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4-1">日期和时间</a></h3><h3 id="CURL"><a href="#CURL" class="headerlink" title="CURL"></a><a href="#CURL-1">CURL</a></h3><h3 id="过滤器"><a href="#过滤器" class="headerlink" title="过滤器"></a><a href="#%E8%BF%87%E6%BB%A4%E5%99%A8-1">过滤器</a></h3><h3 id="函数处理"><a href="#函数处理" class="headerlink" title="函数处理"></a><a href="#%E5%87%BD%E6%95%B0%E5%A4%84%E7%90%86-1">函数处理</a></h3><h3 id="正则处理"><a href="#正则处理" class="headerlink" title="正则处理"></a><a href="#%E6%AD%A3%E5%88%99%E5%A4%84%E7%90%86-1">正则处理</a></h3><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a><a href="#%E7%BD%91%E7%BB%9C-1">网络</a></h3><h3 id="程序执行"><a href="#程序执行" class="headerlink" title="程序执行"></a><a href="#%E7%A8%8B%E5%BA%8F%E6%89%A7%E8%A1%8C-1">程序执行</a></h3><h3 id="PHP选项和信息"><a href="#PHP选项和信息" class="headerlink" title="PHP选项和信息"></a><a href="#PHP%E9%80%89%E9%A1%B9%E5%92%8C%E4%BF%A1%E6%81%AF-1">PHP选项和信息</a></h3><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a><a href="#%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86-1">错误处理</a></h3><h3 id="输出缓冲控制"><a href="#输出缓冲控制" class="headerlink" title="输出缓冲控制"></a><a href="#%E8%BE%93%E5%87%BA%E7%BC%93%E5%86%B2%E6%8E%A7%E5%88%B6-1">输出缓冲控制</a></h3><h3 id="密码散列算法"><a href="#密码散列算法" class="headerlink" title="密码散列算法"></a><a href="#%E5%AF%86%E7%A0%81%E6%95%A3%E5%88%97%E7%AE%97%E6%B3%95-1">密码散列算法</a></h3><h3 id="Session"><a href="#Session" class="headerlink" title="Session"></a><a href="#Session-1">Session</a></h3><h3 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a><a href="#JSON-1">JSON</a></h3><h3 id="Stream"><a href="#Stream" class="headerlink" title="Stream"></a><a href="#Stream-1">Stream</a></h3><h3 id="SPL"><a href="#SPL" class="headerlink" title="SPL"></a><a href="#SPL-1">SPL</a></h3><h3 id="BCMath"><a href="#BCMath" class="headerlink" title="BCMath"></a><a href="#BCMath-1">BCMath</a></h3><h3 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a><a href="#%E6%9D%82%E9%A1%B9-1">杂项</a></h3><h3 id="数组-1" name="数组-1">数组</h3>
 
