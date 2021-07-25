@@ -1834,7 +1834,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7fff9c;
+  background: #d6ffb3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3133,7 +3133,7 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("/images/beijing.jpg");
+  background: url("https://hexo-lwy.oss-cn-hangzhou.aliyuncs.com/hexo/505097ldsdl.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
