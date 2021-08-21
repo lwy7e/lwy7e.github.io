@@ -372,21 +372,6 @@
       </tags>
   </entry>
   <entry>
-    <title>程序是怎么跑起来的</title>
-    <url>/2020/09/28/%E7%A8%8B%E5%BA%8F%E6%98%AF%E6%80%8E%E4%B9%88%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84/</url>
-    <content><![CDATA[<h3 id="对程序员来说CPU是什么？"><a href="#对程序员来说CPU是什么？" class="headerlink" title="对程序员来说CPU是什么？"></a>对程序员来说CPU是什么？</h3><h4 id="热身"><a href="#热身" class="headerlink" title="热身"></a>热身</h4><p>1.程序是什么？<br>2.程序是由什么组成的？<br>3.什么是机器语言？<br>4.正在运行的程序存储在什么位置？<br>5.什么是内存地址？<br>6.计算机的构成原件中，负责程序的解释和运行的是哪个？</p>
-<p>我的第一次回答<br>1.计算机运行的命令<br>2.由指令和数据组成<br>3.计算机可以直接识别的语言<br>4.内存<br>5.一个位置<br>6.CPU</p>
-<p>答案</p>
-<p>1.指示计算机每一步动作的一组指令<br>2.指令和数据<br>3.CPU可以直接识别并使用的语言<br>4.内存<br>5.内存中，用来表示命令和数据存储位置的数值<br>6.CPU</p>
-]]></content>
-      <categories>
-        <category>读书笔记</category>
-      </categories>
-      <tags>
-        <tag>基础</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>约瑟夫环问题（猴子选大王）</title>
     <url>/2019/04/16/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%88%E7%8C%B4%E5%AD%90%E9%80%89%E5%A4%A7%E7%8E%8B%EF%BC%89PHP%E7%89%88/</url>
     <content><![CDATA[<p>约瑟夫斯问题问题有时候也被描述成猴子选大王问题，题目如下。（最后会贴上约瑟夫问题的来历）</p>
