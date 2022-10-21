@@ -371,6 +371,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/16/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%88%E7%8C%B4%E5%AD%90%E9%80%89%E5%A4%A7%E7%8E%8B%EF%BC%89PHP%E7%89%88/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/16/%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF%E9%97%AE%E9%A2%98%EF%BC%88%E7%8C%B4%E5%AD%90%E9%80%89%E5%A4%A7%E7%8E%8B%EF%BC%89PHP%E7%89%88/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -773,6 +783,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '6f8z5evVIMZ4DfCzickdbfa5-MdYXbMMI',
+        appKey: 'clIxYoucsZ7m551EDqdRsyYa',
+        placeholder: '期待与您交流！',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
