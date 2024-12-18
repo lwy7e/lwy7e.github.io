@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《小丑牌》Balatro</title>
+    <url>/2024/11/28/%E6%B8%B8%E6%88%8F/%E3%80%8A%E5%B0%8F%E4%B8%91%E7%89%8C%E3%80%8BBalatro/</url>
+    <content><![CDATA[<h1 id="《小丑牌》Balatro"><a href="#《小丑牌》Balatro" class="headerlink" title="《小丑牌》Balatro"></a>《小丑牌》Balatro</h1><h2 id="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"><a href="#思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？" class="headerlink" title="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"></a>思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？</h2><ol>
+<li><strong>极简的操作提升可能存在的玩家数量</strong>：《吸血鬼幸存者》只需要玩家会移动方向、《幸运房东》只需要玩家点击按钮启动老虎机、《Balatro》有家喻户晓的扑克牌……抛开 RogueLite 属性带来的游戏复杂度不谈，游戏极简的操作降低了准入门槛，让各式各样的玩家都有机会来尝试一把，当然，这也仅仅只是一种吸引玩家的讨巧手段，并非游戏成败的关键手；</li>
+</ol>
+<p>2.<strong>善用“挑战-成长-挑战”循环模型</strong>：通过对系统的拆解可以发现，本作玩法本质上就是“挑战-成长-挑战”的循环模型，对于游戏，我们不能照单全抄，但经过验证的玩法模型，我们可以在此基础上做出自己的玩法迭代；</p>
+<p>3.<strong>披上传统游戏的外衣</strong>：所谓的传统游戏，如麻将、飞行棋、象棋，甚至更近代一点的 UNO、大富翁，这些家喻户晓、经过玩法验证的游戏，是否可以跟 RogueLite 融合到一起，展现出如《小丑牌》一般熟悉又新奇的玩法体验；</p>
+<p>4.<strong>尝试移植移动端</strong>：如此操作简单、随时随地可以开一局的游戏，也许最适合的平台就是移动端，复刻移植游戏到移动端也会是一种选择，但同时也要考虑如何跟商业化做结合，买断制与移动端的玩家并不契合。</p>
+<blockquote>
+<p>对游戏的玩法模型：系统的拆解 拆解动作做出全过程的记录更容易后面回过头审视思考时 更加深入了解或者再次发现问题的关键。<br>想法：2024.11.28</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>游戏</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/11/20/%E6%B8%B8%E6%88%8F/%E6%8A%95%E7%AF%AE%E6%A8%A1%E6%8B%9F%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="投篮"><a href="#投篮" class="headerlink" title="投篮"></a>投篮</h1>]]></content>
+  </entry>
+  <entry>
     <title>李开复自传</title>
     <url>/2018/12/24/%E6%80%9D%E8%80%83/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/</url>
     <content><![CDATA[<h3 id="李开复自传"><a href="#李开复自传" class="headerlink" title="李开复自传"></a>李开复自传</h3><blockquote>
@@ -97,6 +119,12 @@
 <td align="left">下次看到这个记录就立刻做</td>
 <td align="left">2024-12-06</td>
 </tr>
+<tr>
+<td align="left">做算法题</td>
+<td align="left">到今天做了3道还是没有养成习惯</td>
+<td align="left">先做简单的养成习惯</td>
+<td align="left">2024-12-18</td>
+</tr>
 </tbody></table>
 ]]></content>
       <categories>
@@ -123,28 +151,6 @@
       <categories>
         <category>思考</category>
       </categories>
-  </entry>
-  <entry>
-    <title>《小丑牌》Balatro</title>
-    <url>/2024/11/28/%E6%B8%B8%E6%88%8F/%E3%80%8A%E5%B0%8F%E4%B8%91%E7%89%8C%E3%80%8BBalatro/</url>
-    <content><![CDATA[<h1 id="《小丑牌》Balatro"><a href="#《小丑牌》Balatro" class="headerlink" title="《小丑牌》Balatro"></a>《小丑牌》Balatro</h1><h2 id="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"><a href="#思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？" class="headerlink" title="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"></a>思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？</h2><ol>
-<li><strong>极简的操作提升可能存在的玩家数量</strong>：《吸血鬼幸存者》只需要玩家会移动方向、《幸运房东》只需要玩家点击按钮启动老虎机、《Balatro》有家喻户晓的扑克牌……抛开 RogueLite 属性带来的游戏复杂度不谈，游戏极简的操作降低了准入门槛，让各式各样的玩家都有机会来尝试一把，当然，这也仅仅只是一种吸引玩家的讨巧手段，并非游戏成败的关键手；</li>
-</ol>
-<p>2.<strong>善用“挑战-成长-挑战”循环模型</strong>：通过对系统的拆解可以发现，本作玩法本质上就是“挑战-成长-挑战”的循环模型，对于游戏，我们不能照单全抄，但经过验证的玩法模型，我们可以在此基础上做出自己的玩法迭代；</p>
-<p>3.<strong>披上传统游戏的外衣</strong>：所谓的传统游戏，如麻将、飞行棋、象棋，甚至更近代一点的 UNO、大富翁，这些家喻户晓、经过玩法验证的游戏，是否可以跟 RogueLite 融合到一起，展现出如《小丑牌》一般熟悉又新奇的玩法体验；</p>
-<p>4.<strong>尝试移植移动端</strong>：如此操作简单、随时随地可以开一局的游戏，也许最适合的平台就是移动端，复刻移植游戏到移动端也会是一种选择，但同时也要考虑如何跟商业化做结合，买断制与移动端的玩家并不契合。</p>
-<blockquote>
-<p>对游戏的玩法模型：系统的拆解 拆解动作做出全过程的记录更容易后面回过头审视思考时 更加深入了解或者再次发现问题的关键。<br>想法：2024.11.28</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/11/20/%E6%B8%B8%E6%88%8F/%E6%8A%95%E7%AF%AE%E6%A8%A1%E6%8B%9F%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="投篮"><a href="#投篮" class="headerlink" title="投篮"></a>投篮</h1>]]></content>
   </entry>
   <entry>
     <title>人生的意义，由你自己决定</title>
@@ -221,6 +227,17 @@ WHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id &#x3D; u.id);<span ari
 ]]></content>
       <categories>
         <category>思考</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>待整理学习的文章</title>
+    <url>/2018/12/24/%E6%80%BB%E7%BB%93/%E5%BE%85%E6%95%B4%E7%90%86%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<ul>
+<li><input disabled type="checkbox"> <a href="https://mp.weixin.qq.com/s/CIzfSyZd7DOuLb-Yq_VQXQ">漫画 Transformer: 手把手用数学公式推导</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>待整理</category>
       </categories>
   </entry>
 </search>
