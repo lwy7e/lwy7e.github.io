@@ -1,323 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>《小丑牌》Balatro</title>
-    <url>/2024/11/28/%E6%B8%B8%E6%88%8F/%E3%80%8A%E5%B0%8F%E4%B8%91%E7%89%8C%E3%80%8BBalatro/</url>
-    <content><![CDATA[<h1 id="《小丑牌》Balatro"><a href="#《小丑牌》Balatro" class="headerlink" title="《小丑牌》Balatro"></a>《小丑牌》Balatro</h1><h2 id="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"><a href="#思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？" class="headerlink" title="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"></a>思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？</h2><ol>
-<li><strong>极简的操作提升可能存在的玩家数量</strong>：《吸血鬼幸存者》只需要玩家会移动方向、《幸运房东》只需要玩家点击按钮启动老虎机、《Balatro》有家喻户晓的扑克牌……抛开 RogueLite 属性带来的游戏复杂度不谈，游戏极简的操作降低了准入门槛，让各式各样的玩家都有机会来尝试一把，当然，这也仅仅只是一种吸引玩家的讨巧手段，并非游戏成败的关键手；</li>
-</ol>
-<p>2.<strong>善用“挑战-成长-挑战”循环模型</strong>：通过对系统的拆解可以发现，本作玩法本质上就是“挑战-成长-挑战”的循环模型，对于游戏，我们不能照单全抄，但经过验证的玩法模型，我们可以在此基础上做出自己的玩法迭代；</p>
-<p>3.<strong>披上传统游戏的外衣</strong>：所谓的传统游戏，如麻将、飞行棋、象棋，甚至更近代一点的 UNO、大富翁，这些家喻户晓、经过玩法验证的游戏，是否可以跟 RogueLite 融合到一起，展现出如《小丑牌》一般熟悉又新奇的玩法体验；</p>
-<p>4.<strong>尝试移植移动端</strong>：如此操作简单、随时随地可以开一局的游戏，也许最适合的平台就是移动端，复刻移植游戏到移动端也会是一种选择，但同时也要考虑如何跟商业化做结合，买断制与移动端的玩家并不契合。</p>
-<blockquote>
-<p>对游戏的玩法模型：系统的拆解 拆解动作做出全过程的记录更容易后面回过头审视思考时 更加深入了解或者再次发现问题的关键。<br>想法：2024.11.28</p>
-</blockquote>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>低代码编程对比AI编程</title>
+      <link href="/2025/03/18/%E6%80%9D%E8%80%83/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B%E5%AF%B9%E6%AF%94AI%E7%BC%96%E7%A8%8B/"/>
+      <url>/2025/03/18/%E6%80%9D%E8%80%83/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B%E5%AF%B9%E6%AF%94AI%E7%BC%96%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="低代码编程对比AI编程"><a href="#低代码编程对比AI编程" class="headerlink" title="低代码编程对比AI编程"></a>低代码编程对比AI编程</h1><p>我对 AI 的看法是，AI 本身不会创造，需要人类与它共同创造，创造的结果好坏与使用它的人的质量高度相关。</p><p>与 AI 交谈不像在与一个人交谈，而像在与人类的集体思维交谈。AI 不应该让你减少思考，而应该帮助你增加思考，AI 是你的杠杆，可以让你拓展自己。</p><p>– Alex Komoroske，美国程序员</p><blockquote><p>增加思考真的很有必要，首先对于每天上班工作，对外接触的一些商业思想，模式真的很少。其中很多细节不能只是凭空想象的或者忽略的，</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>游戏</category>
+          
+          <category> 思考 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2024/11/20/%E6%B8%B8%E6%88%8F/%E6%8A%95%E7%AF%AE%E6%A8%A1%E6%8B%9F%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="投篮"><a href="#投篮" class="headerlink" title="投篮"></a>投篮</h1>]]></content>
-  </entry>
-  <entry>
-    <title>李开复自传</title>
-    <url>/2018/12/24/%E6%80%9D%E8%80%83/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/</url>
-    <content><![CDATA[<h3 id="李开复自传"><a href="#李开复自传" class="headerlink" title="李开复自传"></a>李开复自传</h3><blockquote>
-<p>   用你的梦想和理想引领你的一生，要用感恩真诚助人圆梦的心态引领你的一生，要用执着无惧乐观的态度引领你的一生。如果你做到了这些，因缘会给你一切你所应得的。<br>   不要被信条所惑，盲从信条就是活在别人思考的结果里。不要让别人的意见淹没了你内在的心声。最重要的，拥有跟随内心与直觉的勇气，你的内心与直觉多少已经知道那你真正想要成为什么样的人，任何其他事物都是次要的。</p>
-</blockquote>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>待整理学习的文章</title>
+      <link href="/2025/02/21/%E6%80%BB%E7%BB%93/%E5%BE%85%E6%95%B4%E7%90%86%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+      <url>/2025/02/21/%E6%80%BB%E7%BB%93/%E5%BE%85%E6%95%B4%E7%90%86%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<ul><li><input disabled type="checkbox"> <a href="https://mp.weixin.qq.com/s/CIzfSyZd7DOuLb-Yq_VQXQ">漫画 Transformer: 手把手用数学公式推导</a></li></ul><ul><li><input disabled type="checkbox"> <a href="https://probability.visualized.fun/">看见概率论</a></li></ul>]]></content>
+      
+      
       <categories>
-        <category>读书笔记</category>
+          
+          <category> 待整理 </category>
+          
       </categories>
-      <tags>
-        <tag>学习方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十年学会编程</title>
-    <url>/2024/08/22/%E6%80%9D%E8%80%83/%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<h3 id="Teach-Yourself-Programming-in-Ten-Years"><a href="#Teach-Yourself-Programming-in-Ten-Years" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h3><h4 id="Peter-NorviG"><a href="#Peter-NorviG" class="headerlink" title="Peter NorviG"></a>Peter NorviG</h4><h3 id="Why-is-everyone-in-such-a-rush？"><a href="#Why-is-everyone-in-such-a-rush？" class="headerlink" title="Why is everyone in such a rush？"></a>Why is everyone in such a rush？</h3><p>为何每个人都急于求成?<br>Walk into any bookstore, and you’ll see how to Teach Yourself Java in 24 Hours alongside endless variations offering to teach C, SQL, Ruby, Algorithms, and so on in a few days or hours. The Amazon advanced search for [title: teach, yourself, hours, since: 2000 and found 512 such books. Of the top ten, nine are programming books (the other is about bookkeeping). Similar results come from replacing “teach yourself” with “learn” or “hours” with “days.”</p>
-<p>随便走进一家书店，都会看到类似《24小时学会Java》这样的书，旁边摆着的是大量诸如在几天，几小时之内学会C语言，SQL，Ruby以及算法这样的书。如果使用Amazon上的高级搜索，使用title: teach, yourself, hours, since: 2000这个关键字来搜索，将会返回512本书。最靠前的10本书中，有9本是编程的书（唯一的例外是一本记账的书）。如果把关键字”teach yourself”替换成”learn”，或者将”hours”替换成”days”，返回的结果大同小异。</p>
-<p>The conclusion is that either people are in a big rush to learn about programming, or that programming is somehow fabulously easier to learn than anything else. Felleisen et al. give a nod to this trend in their book How to Design Programs, when they say “Bad programming is easy. Idiots can learn it in 21 days, even if they are dummies.” The Abtruse Goose comic also had their take.</p>
-<p>很明显，人们在学习编程的时候喜欢大跃进，或者认为编程比起其它事情来，是小菜一碟的事。Felleisen在他的书《How to Design Program》里说：“编烂程一点也不难。傻瓜也可以在21天内学会，即使他们是傻逼。”在搞笑漫画网站Abtruse Goose也在这个漫画中表达了同样的看法。</p>
-<p>Let’s analyze what a title like Teach Yourself C++ in 24 Hours could mean:</p>
-<p>我们来看看类似《24小时自学C++》这种标题党，到底说的什么鬼东西：</p>
-<p><strong>Teach Yourself</strong>: In 24 hours you won’t have time to write several significant programs, and learn from your successes and failures with them. You won’t have time to work with an experienced programmer and understand what it is like to live in a C++ environment. In short, you won’t have time to learn much. So the book can only be talking about a superficial familiarity, not a deep understanding. As Alexander Pope said, a little learning is a dangerous thing.<br><strong>自学</strong>: 24小时之内，你没有时间写几个有意义的程序，也就无法从成功或失败中学到经验。24小时之内，你没有时间和一个有经验的程序员合作交流，也就无从理解使用C++编程的真实场景。简单来说，时间太短，你啥也学不到。因此，有这种干货标题的速成书，只是让你走马观花的瞧一下，绝非深入的理解。18世纪的英国诗人亚历山大·蒲柏[……1]曾说过：“一知半解”是一件危险的事情。[……1]：这个哥哥还给牛顿写了最出名的墓志铭之一：“自然和自然律隐没在黑暗中；上帝说，让牛顿去吧！遂一片光明。”<br><strong>C++</strong>: In 24 hours you might be able to learn some of the syntax of C++ (if you already know another language), but you couldn’t learn much about how to use the language. In short, if you were, say, a Basic programmer, you could learn to write programs in the style of Basic using C++ syntax, but you couldn’t learn what C++ is actually good (and bad) for. So what’s the point? Alan Perlis once said: “A language that doesn’t affect the way you think about programming, is not worth knowing”. One possible point is that you have to learn a tiny bit of C++ (or more likely, something like JavaScript or Processing) because you need to interface with an existing tool to accomplish a specific task. But then you’re not learning how to program; you’re learning to accomplish that task.<br><strong>C++</strong>: (如果你有一定的编程基础)，在24小时之内，能学会一些C++的语法，但是，仅此而已了。如果你以前是个Basic语言的程序员，你可以写一些语法是C++，但是风格是Basic的程序，但是，24小时之内，C++语言的精华或糟粕，你都学不到。重点是什么？(首界图灵奖得主)Alan Perlis曾说过：“不能影响你编程思维方式的语言，是不值得学习的。”一个更加可能的场景是，在工作中，你不得不学习C++（或者JavaScript，Processing之类）的一小部分，来调用一些原有的接口，完成某个特定的任务。这种情况下，表面上说是在学习如何编程，其实只是在应付一下手上的活。<br><strong>in 24 Hours</strong>: Unfortunately, this is not enough, as the next section shows.<br><strong>24小时内</strong>:很不幸，24小时太少了，原因下面告诉你。</p>
-<h3 id="Teach-Yourself-Programming-in-Ten-Years-1"><a href="#Teach-Yourself-Programming-in-Ten-Years-1" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h3><h3 id="十年学会编程"><a href="#十年学会编程" class="headerlink" title="十年学会编程"></a>十年学会编程</h3><p>Researchers (Bloom (1985), Bryan &amp; Harter (1899), Hayes (1989), Simmon &amp; Chase (1973)) have shown it takes about ten years to develop expertise in any of a wide variety of areas, including chess playing, music composition, telegraph operation, painting, piano playing, swimming, tennis, and research in neuropsychology and topology. The key is deliberative practice: not just doing it again and again, but challenging yourself with a task that is just beyond your current ability, trying it, analyzing your performance while and after doing it, and correcting any mistakes. Then repeat. And repeat again. There appear to be no real shortcuts: even Mozart, who was a musical prodigy at age 4, took 13 more years before he began to produce world-class music. In another genre, the Beatles seemed to burst onto the scene with a string of #1 hits and an appearance on the Ed Sullivan show in 1964. But they had been playing small clubs in Liverpool and Hamburg since 1957, and while they had mass appeal early on, their first great critical success, Sgt. Peppers, was released in 1967.</p>
-<p>研究表明，想在任何领域成为专家，大概需要10年的时间，这些领域包括下棋，作曲，发电报，弹钢琴，游泳，打网球，研究神经心理学和拓扑学。关键在于有针对性的训练，而不是漫无目的重复，训练的内容要刚好超过你现有的水平，练习以后要分析你的表现，改正发现的错误，然后重复，再重复。没有什么捷径可走，即使是Mozart，一个4岁就能弹琴的音乐天才，也是用了13年的时间，才真正的写出世界级的音乐作品。在流行音乐上，Beatles好像是在1964年访美期间一夜成名的。实际上，他们从1957年就已经开始在利物浦和汉堡的小酒馆里唱歌了，他们组建乐队的时间就更早了，他们第一张取得巨大成功的专辑《佩帕军士》，是在1967年发行的。</p>
-<p>Malcolm Gladwell has popularized the idea, although he concentrates on 10,000 hours, not 10 years. Henri Cartier-Bresson (1908-2004) had another metric: “Your first 10,000 photographs are your worst.” (He didn’t anticipate that with digital cameras, some people can reach that mark in a week.) True expertise may take a lifetime: Samuel Johnson (1709-1784) said “Excellence in any department can be attained only by the labor of a lifetime; it is not to be purchased at a lesser price.” And Chaucer (1340-1400) complained “the lyf so short, the craft so long to lerne.” Hippocrates (c. 400BC) is known for the excerpt “ars longa, vita brevis”, which is part of the longer quotation “Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile”, which in English renders as “Life is short, [the] craft long, opportunity fleeting, experiment treacherous, judgment difficult.” Of course, no single number can be the final answer: it doesn’t seem reasonable to assume that all skills (e.g., programming, chess playing, checkers playing, and music playing) could all require exactly the same amount of time to master, nor that all people will take exactly the same amount of time. As Prof. K. Anders Ericsson puts it, “In most domains it’s remarkable how much time even the most talented individuals need in order to reach the highest levels of performance. The 10,000 hour number just gives you a sense that we’re talking years of 10 to 20 hours a week which those who some people would argue are the most innately talented individuals still need to get to the highest level.”</p>
-<p>马尔科姆·格拉德威尔让这个理论广为人知，虽然他说的是另一个说法，10，000个小时而不是10年(这本书有中文翻译版异类 : 不一样的成功启示录)。法国现实主义摄影大师亨利·卡蒂埃-布列松有另外一个标准，他说你的前10,000张照片是你最差的。(当然，这个摄影大师没有意识到数码相机的出现，很多人能在一周内就可以拍10,000张照片)真正的大师要用一生来完成，英国作家，文学评论家和诗人塞缪尔·约翰逊说过：“在任何领域取得卓越的成就都要用一生的努力，不要妄想可以投机取巧。”英国的诗人乔叟也曾经说过：”吾生也有涯 而知也无涯。”同样，公元前400年的希波克拉底也表达过类似的意思，他也认为艺术没有止境，生命却有尽头。他说的这句话有个更长的版本，翻译成英语的意思是：“生命有尽头，艺术无止境，机遇转瞬即逝，练功走火入魔，决定优柔寡断。”当然，不会有一个确定的答案告诉你需要多长时间，毕竟，假设掌握所有的技能(比如编程，下棋，跳棋和音乐)需要相同的时间也不合适，不同的人也会用不同的时间。K.Anders Ericsson教授说过：“值得注意的是，在大多数领域，即使你是个天才，要达到专家级别的高水平仍然需要时间。10，000个小时只是给你一个概念，一个天才，如果每周练习10到20个小时的时间，仍然需要数年时间才能达到专家级别的水平。”</p>
-<h3 id="So-You-Want-to-be-a-Programmer"><a href="#So-You-Want-to-be-a-Programmer" class="headerlink" title="So You Want to be a Programmer"></a>So You Want to be a Programmer</h3><h3 id="所以你想成为一个程序员"><a href="#所以你想成为一个程序员" class="headerlink" title="所以你想成为一个程序员"></a>所以你想成为一个程序员</h3><p>Here’s my recipe for programming success:</p>
-<p>这是我编程成功的秘笈:</p>
-<p>Get interested in programming, and do some because it is fun. Make sure that it keeps being enough fun so that you will be willing to put in your ten years/10,000 hours.</p>
-<p>要对编程感兴趣，要从中能获得快乐。保证编程足够有趣，这样才能让你花10年的时间或者10，000个小时在上面也不觉得枯燥无味。</p>
-<p>Program. The best kind of learning is learning by doing. To put it more technically, “the maximal level of performance for individuals in a given domain is not attained automatically as a function of extended experience, but the level of performance can be increased even by highly experienced individuals as a result of deliberate efforts to improve.” (p. 366) and “the most effective learning requires a well-defined task with an appropriate difficulty level for the particular individual, informative feedback, and opportunities for repetition and corrections of errors.” (p. 20-21) The book Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life is an interesting reference for this viewpoint.</p>
-<p>动手编程。最好的学习方法是边学边做。常言道：“人的最高功力并不能通过做一天和尚撞一天钟这样的重复经验获得，但是，最高的功力可以通过有针对性的日复一日年复一年的训练来获得。”并且，“最有效果的学习需要有针对性的任务，这些任务的难度还要因人而异，并且有合理的反馈渠道，并能够根据这些反馈作出相应的改进。”这些观点引用自《Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life》这本书里。</p>
-<p>Talk with other programmers; read other programs. This is more important than any book or training course.</p>
-<p>和其他的程序员交流；阅读别人的代码。这比看书或者参加培训课程要重要。</p>
-<p>If you want, put in four years at a college (or more at a graduate school). This will give you access to some jobs that require credentials, and it will give you a deeper understanding of the field, but if you don’t enjoy school, you can (with some dedication) get similar experience on your own or on the job. In any case, book learning alone won’t be enough. “Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter” says Eric Raymond, author of The New Hacker’s Dictionary. One of the best programmers I ever hired had only a High School degree; he’s produced a lot of greatsoftware, has his own news group, and made enough in stock options to buy his own nightclub.</p>
-<p>如果你愿意，在大学里花上四年时间（或者再读个研）。这能让你获得一些工作机会，也能让你在这个领域有更深入的了解。但是，如果你一上学就头痛，直接去工作也能获得相同的经验。无论是什么情况，读死书肯定是不行的。计算机科学不会让你成为编程专家，就像学习画笔和颜料不可能让你成为画家一样。这是Eric　Raymond说的，他是New Hacker’s Dictionary字典的作者。我雇佣过的最好的程序员是个高中毕业的学生，他创造了伟大的软件，Mozilla，他拥有自己的新闻组，赚到了足够多的钱买了自己的酒吧。</p>
-<p>Work on projects with other programmers. Be the best programmer on some projects; be the worst on some others. When you’re the best, you get to test your abilities to lead a project, and to inspire others with your vision. When you’re the worst, you learn what the masters do, and you learn what they don’t like to do (because they make you do it for them).</p>
-<p>和其他的程序员一起参与一些项目。在一些项目中成为最出色的程序员；在另一些项目中当最差劲的程序员。在当最出色的程序员的时候，要测试你领导项目的能力，用你的视野来启发别人。如果你是项目中最差的那个，要学习牛人们在做什么，如果他们不喜欢做的，你要拿来做。</p>
-<p>Work on projects after other programmers. Understand a program written by someone else. See what it takes to understand and fix it when the original programmers are not around. Think about how to design your programs to make it easier for those who will maintain them after you.</p>
-<p>接手并推进别人的项目。理解其他人写的代码。如果别人有没有考虑到的问题，你能理解并修复这些问题。思考并设计你的软件，让这些软件容易被他人维护。</p>
-<p>Learn at least a half dozen programming languages. Include one language that emphasizes class abstractions (like Java or C++), one that emphasizes functional abstraction (like Lisp or ML or Haskell), one that supports syntactic abstraction (like Lisp), one that supports declarative specifications (like Prolog or C++ templates), and one that emphasizes parallelism (like Clojure or Go).</p>
-<p>学习至少6种(我不太清楚英语中的half dozen是什么意思，是虚指还是就是6种)编程语言。这6种语言中，包括一种支持抽象类的(例如Java或者C++)，一种支持函数的(Lisp, ML或者Haskell)，一种支持语义抽象的(Lisp)，一种支持声明规范的(Prolog或者C++模板)，还有一种支持并发的(Clojure或Go)。</p>
-<p>Remember that there is a “computer“ in “computer science”. Know how long it takes your computer to execute an instruction, fetch a word from memory (with and without a cache miss), read consecutive words from disk, and seek to a new location on disk. (Answers here.)</p>
-<p>记住，在“计算机科学”中在“计算机”这个词语。理解执行一条指令要花多长时间，从内存中取一个字（要考虑缓存有没有命中的情况）要多久，从硬盘中连续读字节要多久，在硬盘中寻址定位要多久？</p>
-<p>Get involved in a language standardization effort. It could be the ANSI C++ committee, or it could be deciding if your local coding style will have 2 or 4 space indentation levels. Either way, you learn about what other people like in a language, how deeply they feel so, and perhaps even a little about why they feel so.</p>
-<p>参加语言的标准化工作。这可能是有关 ANSI C++ 委员会，也可能是缩进的风格是两格缩进或四格缩进。无论如何，你能从中学到其他人对语言的喜好，也能了解到他们热爱的程度，甚至也许能知道一点他们为什么他们会这样认为？</p>
-<p>Have the good sense to get off the language standardization effort as quickly as possible.</p>
-<p>知道何时能从标准化语言的工作中脱身，越快越好。</p>
-<p>With all that in mind, its questionable how far you can get just by book learning. Before my first child was born, I read all the How To books, and still felt like a clueless novice. 30 Months later, when my second child was due, did I go back to the books for a refresher? No. Instead, I relied on my personal experience, which turned out to be far more useful and reassuring to me than the thousands of pages written by experts.</p>
-<p>很难说能从书本中学到多少东西。我第一个小孩出生的时候，我读了所有的“如何做”系列的书，但是，没有什么头绪。30个月以后，当我的第二个孩子出生，我还要重温一下那些书么？当然不用了！我都已经是老司机了，我完全靠我自己的经验，事实也证明我自己的经验要胜过那些专家们写的上千页的书。</p>
-<p>Fred Brooks, in his essay No Silver Bullet identified a three-part plan for finding great software designers:</p>
-<p>弗雷德·布鲁克斯在他的书《没有银弹》中给出了三条建议：</p>
-<p>Systematically identify top designers as early as possible.</p>
-<p>尽早地系统地识别出顶级设计师</p>
-<p>Assign a career mentor to be responsible for the development of the prospect and carefully keep a career file.</p>
-<p>每个人给分配一个职业规划的导师</p>
-<p>Provide opportunities for growing designers to interact and stimulate each other.</p>
-<p>让成长中的设计师有机会互相切磋武艺</p>
-<p>This assumes that some people already have the qualities necessary for being a great designer; the job is to properly coax them along. Alan Perlis put it more succinctly: “Everyone can be taught to sculpt: Michelangelo would have had to be taught how not to. So it is with the great programmers”. Perlis is saying that the greats have some internal quality that transcends their training. But where does the quality come from? Is it innate? Or do they develop it through diligence? As Auguste Gusteau (the fictional chef in Ratatouille) puts it, “anyone can cook, but only the fearless can be great.” I think of it more as willingness to devote a large portion of one’s life to deliberative practice. But maybe fearless is a way to summarize that. Or, as Gusteau’s critic, Anton Ego, says: “Not everyone can become a great artist, but a great artist can come from anywhere.”</p>
-<p>此处假设有一些人天生有成为伟大设计师的潜质，然后，就是正确的去引导他们。艾伦·佩里斯一针见血地说：”假如每个人都可以学会雕刻，那就得教米开朗基罗哪些事不要去做。对于伟大程序员，也是如此。”Perlis认为，伟大的人有一种内在的特质，这种特质往往比接受训练更重要。但是，这些特质是从哪里来的呢？与生俱来的？还是通过后天勤奋而来的？正如 动画片《料理鼠王》里的幻象大厨Auguste Gusteau说的那样：“谁都能做饭，但只有那些无所畏惧的人才能成为大厨！”我认为“把你生命中的大部分时间花在有针对性的练习上”这种精神，看作一种自愿奉献的精神！但或许“无所畏惧”才是体现这种精神的真谛。或者，就像是《料理鼠王》里那个与 Gusteau 作对的刻薄的美食评论家 Anton Ego 说的那样：“不是任何人都能成为伟大的艺术家，不过，伟大的艺术家可以来自任何地方。”</p>
-<p>So go ahead and buy that Java/Ruby/Javascript/PHP book; you’ll probably get some use out of it. But you won’t change your life, or your real overall expertise as a programmer in 24 hours or 21 days. How about working hard to continually improve over 24 months? Well, now you’re starting to get somewhere…</p>
-<p>所以，尽管买本 Java/Ruby/Javascript/PHP 的书吧。你可能会从中学到点儿有用的东西。但作为一个程序员，在 21 天内或 24 小时内改变你的人生，或者提高你实际的编程水平，这是不可能的。你尝试过连续 24 个月不间断的努力提高自己么？好吧，好吧，你该上路了……</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>未来属于那些有想法、还能动手去做的人</title>
+      <link href="/2025/02/19/%E6%80%9D%E8%80%83/%E6%9C%AA%E6%9D%A5%E5%B1%9E%E4%BA%8E%E9%82%A3%E4%BA%9B%E6%9C%89%E6%83%B3%E6%B3%95%E3%80%81%E8%BF%98%E8%83%BD%E5%8A%A8%E6%89%8B%E5%8E%BB%E5%81%9A%E7%9A%84%E4%BA%BA/"/>
+      <url>/2025/02/19/%E6%80%9D%E8%80%83/%E6%9C%AA%E6%9D%A5%E5%B1%9E%E4%BA%8E%E9%82%A3%E4%BA%9B%E6%9C%89%E6%83%B3%E6%B3%95%E3%80%81%E8%BF%98%E8%83%BD%E5%8A%A8%E6%89%8B%E5%8E%BB%E5%81%9A%E7%9A%84%E4%BA%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="未来属于那些有想法、还能动手去做的人"><a href="#未来属于那些有想法、还能动手去做的人" class="headerlink" title="未来属于那些有想法、还能动手去做的人"></a>未来属于那些有想法、还能动手去做的人</h1><blockquote><p>人的智力高低，未来不会像现在这样重要，AI 可以弥补人的智力。提出正确问题的能力，在未来比找到答案的能力更重要。</p></blockquote><p>OpenAI 公司的 CEO。这令人想到，中国的应试教育考察的是，谁能记住最多的正确答案，真的需要改了。</p>]]></content>
+      
+      
       <categories>
-        <category>文章</category>
+          
+          <category> 思考 </category>
+          
       </categories>
-      <tags>
-        <tag>文章</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>挑战-反馈-挑战（记录）</title>
-    <url>/2024/11/28/%E6%80%9D%E8%80%83/%E6%8C%91%E6%88%98-%E5%8F%8D%E9%A6%88-%E6%8C%91%E6%88%98%EF%BC%88%E8%AE%B0%E5%BD%95%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="挑战-反馈-挑战（记录）"><a href="#挑战-反馈-挑战（记录）" class="headerlink" title="挑战-反馈-挑战（记录）"></a>挑战-反馈-挑战（记录）</h1><h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><p>这里记录更加近一步详细的点</p>
-<table>
-<thead>
-<tr>
-<th align="left">挑战（行动）</th>
-<th align="left">反馈</th>
-<th align="left">挑战（改进后的行动）</th>
-<th align="left">记录时间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">做算法题</td>
-<td align="left">逃避故意不做</td>
-<td align="left">固定时间做一题</td>
-<td align="left">2024-11-28</td>
-</tr>
-<tr>
-<td align="left">做算法题</td>
-<td align="left">还是没做今天必须行动</td>
-<td align="left">下次看到这个记录就立刻做</td>
-<td align="left">2024-12-06</td>
-</tr>
-<tr>
-<td align="left">做算法题</td>
-<td align="left">到今天做了3道还是没有养成习惯</td>
-<td align="left">先做简单的养成习惯</td>
-<td align="left">2024-12-18</td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>段位瓶颈阶段</title>
+      <link href="/2025/02/05/%E6%B8%B8%E6%88%8F/PVP%E6%B8%B8%E6%88%8F%E7%93%B6%E9%A2%88%E9%98%B6%E6%AE%B5/"/>
+      <url>/2025/02/05/%E6%B8%B8%E6%88%8F/PVP%E6%B8%B8%E6%88%8F%E7%93%B6%E9%A2%88%E9%98%B6%E6%AE%B5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="段位瓶颈阶段"><a href="#段位瓶颈阶段" class="headerlink" title="段位瓶颈阶段"></a>段位瓶颈阶段</h1><blockquote><p>首先理解为什么关注段位，更高段位带了更高优质的反馈的概率，更高优质的反馈体现价值。<br>2025.02.10 记录</p></blockquote><p>DeepSeek 给出的回复</p><p>在PVP（玩家对玩家）游戏中，段位瓶颈是许多玩家都会遇到的常见问题。当你发现自己在一个段位停滞不前时，可能是由于技术、心态、策略或游戏理解等方面存在不足。以下是一些应对段位瓶颈的有效方法：</p><ol><li>分析问题，找到瓶颈原因<br>复盘对局：回顾自己的游戏录像，分析失败的原因。是操作失误、决策错误，还是对对手的策略不了解？</li></ol><p>识别弱点：明确自己的短板，比如反应速度、地图意识、资源管理、团队配合等。</p><p>对比高手：观看高水平玩家的对局或直播，学习他们的操作、决策和思路。</p><ol start="2"><li>提升技术<br>练习基本功：确保自己的基础操作（如瞄准、走位、技能释放）达到当前段位的标准。</li></ol><p>针对性训练：如果某个技术环节薄弱（如枪法、连招、反应速度），可以通过训练模式或自定义练习来强化。</p><p>熟悉角色/英雄：如果你使用的是特定角色或英雄，深入研究其技能机制、连招技巧和应对不同对手的策略。</p><ol start="3"><li>优化策略和意识<br>学习游戏机制：深入了解游戏的规则、资源分布、地图机制等，确保自己不会因为基础知识不足而吃亏。</li></ol><p>提升地图意识：时刻关注小地图，预判对手的动向，避免被抓单或错过重要资源。</p><p>团队配合：如果是团队游戏，学会与队友沟通和协作，明确分工，避免单打独斗。</p><ol start="4"><li>调整心态<br>接受瓶颈期：段位瓶颈是正常现象，不要因此焦虑或气馁。把它当作提升自己的机会。</li></ol><p>避免情绪化：输掉对局后，不要急于开始下一局，先冷静下来，分析问题。</p><p>设定小目标：不要只盯着段位，可以设定一些小目标，比如“这局我要减少失误”或“我要提高KDA”。</p><ol start="5"><li>学习对手和版本<br>了解对手：研究当前段位常见的对手策略和套路，找到应对方法。</li></ol><p>适应版本：关注游戏版本的更新，了解强势角色、装备或战术，及时调整自己的玩法。</p><ol start="6"><li>寻求外部帮助<br>请教高手：向比你更强的玩家请教，或者加入游戏社区，与其他玩家交流经验。</li></ol><p>观看教学视频：很多高水平玩家会分享他们的技巧和心得，通过学习可以快速提升。</p><p>找队友组排：如果是团队游戏，找到志同道合的队友一起排位，可以减少匹配到不靠谱队友的概率。</p><ol start="7"><li>适当休息<br>避免疲劳作战：长时间游戏会导致注意力下降，影响发挥。适当休息，保持清醒的头脑。</li></ol><p>换游戏放松：如果长时间卡在瓶颈，可以尝试玩其他游戏或做其他事情，换换心情。</p><ol start="8"><li>长期坚持<br>保持耐心：突破瓶颈需要时间，不要急于求成。每天进步一点点，最终会迎来质变。</li></ol><p>记录进步：记录自己的对局数据或心得，看到自己的成长会更有动力。</p><p>总结<br>段位瓶颈是PVP游戏中的常态，关键在于找到问题、针对性改进，并保持积极的心态。通过技术提升、策略优化和心态调整，你一定能够突破瓶颈，达到更高的段位！</p>]]></content>
+      
+      
       <categories>
-        <category>反馈</category>
+          
+          <category> 游戏 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>自我的认知觉醒</title>
-    <url>/2024/11/14/%E6%80%9D%E8%80%83/%E8%87%AA%E6%88%91%E7%9A%84%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92/</url>
-    <content><![CDATA[<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><blockquote>
-<p>写作是头等大事，因为思考是头等大事，没有写作就没有深入思考，没有思考就只能浑浑噩噩的活下去。</p>
-</blockquote>
-<p>想法：2024-11-18 17:54</p>
-<h3 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h3><blockquote>
-<p>想法，看过了，听过了或者了解到的结果。不等于自己掌握了，只有直接实际操作了或者真实沟通了获取了反馈才会发现需要改进的问题。<br>想法：2024-11-14 18:05:00</p>
-</blockquote>
-<blockquote>
-<p>做事的核心，并不是弄明白搞得好或者搞得坏，而是要在实践中把事情搞清楚。<br>想法：2024-11-18 11:28:00</p>
-</blockquote>
-<h3 id="挑战-反馈-挑战"><a href="#挑战-反馈-挑战" class="headerlink" title="挑战-反馈-挑战"></a>挑战-反馈-挑战</h3><blockquote>
-<p>挑战-反馈-挑战 对这里底层逻辑拆解 针对在做不同的事时可以转换不同的模型<br>编程：编程-运行相关问题出现反思-编程<br>游戏：挑战-反馈-挑战（这里游戏做的是最好了的对于记录和反馈）<br>篮球：打-记录发现问题不足-针对训练<br>健身：运动-身体反馈-针对训练<br>写作：发现点子写作-反思-再进行写作<br>行动-反馈（有意识的这里大多数是无意识的情况或者低反馈）-行动<br>反馈：这里很重要！！（优秀的反馈大多数情况就是提供价值的地方 像是 教练，专家等等）<br>想法：2024-11-28 17:56:00</p>
-</blockquote>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>sql优化注意事项</title>
+      <link href="/2024/12/06/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95/sql/SQL%20best%20practices%20%E2%80%93%20don%E2%80%99t%20compare%20count(*)%20with%200/"/>
+      <url>/2024/12/06/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95/sql/SQL%20best%20practices%20%E2%80%93%20don%E2%80%99t%20compare%20count(*)%20with%200/</url>
+      
+        <content type="html"><![CDATA[<h1 id="SQL-最佳实践-不要将-count-与-0-进行比较-自己的思考"><a href="#SQL-最佳实践-不要将-count-与-0-进行比较-自己的思考" class="headerlink" title="SQL 最佳实践 - 不要将 count(*) 与 0 进行比较 自己的思考"></a>SQL 最佳实践 - 不要将 count(*) 与 0 进行比较 自己的思考</h1><p>看到这篇文章最大的感受就是在平常开发中，容易被一些所谓的开发经验所蒙蔽。正如我在看这篇文章之前，可能也不会在意，但是通过思考作者与自己的场景相近时反思自己也有这种情况。反向其他人也有这种情况。</p><blockquote><p>作者：我时不时就会看到这样的东西：</p></blockquote><pre class="line-numbers language-none"><code class="language-none">SELECT u.* FROM users uWHERE 0 &#x3D; (SELECT COUNT(*) FROM addresses a WHERE a.user_id &#x3D; u.id);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><blockquote><p>作者：这让我有点痛苦。所以，我想，我要写写它的问题所在，以及如何避免这种结构。</p></blockquote><blockquote><p>让我们来看看某些人在写这篇文章时是怎么想的。此查询将返回地址为零的所有用户。换句话说，就是从未提供过任何地址的用户。</p></blockquote><p>看来问题确实是发生在这里</p><blockquote><p>这有什么不好呢？毕竟，如果我们需要查找没有地址的用户，它就能完成需要做的事情？没错。不对</p></blockquote><p>这里似乎以为解决了问题，但是就是因为这个地方没有考虑到，大的数据量，性能问题，反思自己在之前的开发中确实也出现过这个问题，当时做的是一个活动排行榜的的功能。自己测试然后到了测试，没有测试高并发的情况导致，上线活动推广出现问题。 </p><blockquote><p>问题在于计算。如果一个用户有数百万个地址，会发生什么情况？Pg 会尽职尽责地统计所有地址，但随后会拒绝该行，因为其中有问题。</p></blockquote><blockquote><p>问题是，你并不需要一百万个地址。即使有两个地址，也需要对它们进行计数，虽然时间成本会低于百万行计数，但它仍然存在，而且是 100% 的无用功。</p></blockquote><blockquote><p>因此，问题可能是：如何正确地做这件事？很简单，有EXISTS表达式：</p></blockquote><pre class="line-numbers language-none"><code class="language-none">SELECT u.* FROM users uWHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id &#x3D; u.id);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p>EXISTS（在本例中为 NOT EXISTS）会在找到一行后立即检查并放弃测试。无需计数。</p></blockquote><blockquote><p>当然，在某些（大多数？）情况下，当人们使用这种结构（0 == 计数）时，有人会说：”但在我们的情况下，这并不重要，因为……”。这就是标题中 “最佳实践”的由来。一个人不应该做错事，即使在这种特殊情况下它们并不重要，至少不要养成做错事的习惯，然后在真正重要的时候不小心犯了同样的错误。</p></blockquote><p>这里其实有点误区要注意：<br>明知道，这样不好还是这样做了<br>不知道，这样不好这样做了 </p><p>解决：<br>有意识的，那就不要养成做错事的习惯<br>无意识，做了有了反馈，不断的优化</p><p>参考<br><a href="https://www.depesz.com/2024/12/01/sql-best-practices-dont-compare-count-with-0/">不要用 SQL 的 count(*) 语句与 0 比较（英文）</a></p>]]></content>
+      
+      
       <categories>
-        <category>思考</category>
+          
+          <category> 思考 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>人生的意义，由你自己决定</title>
-    <url>/2021/10/08/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89%EF%BC%8C%E7%94%B1%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%86%B3%E5%AE%9A/</url>
-    <content><![CDATA[<h3 id="人生中最大的谎言"><a href="#人生中最大的谎言" class="headerlink" title="人生中最大的谎言"></a>人生中最大的谎言</h3><p>哲人：人生中最大的谎言就是不活在“此时此刻”。纠结过去、关注未来，把微弱而模糊的光打向人生整体，自认为看到了些什么。你之前就一直忽略“此时此刻”，只关注根本不存在的过去和未来。对自己的人生和无可替代的刹那撒了一个大大的谎言。</p>
-<p>我：想到在读了《被讨厌的勇气》之前，发自心底的遗憾，真想早一些了解。早上10年，或5年，我可以多多珍惜身边的人，获得更多感悟和快乐！</p>
-<h3 id="人生的意义，由你自己决定"><a href="#人生的意义，由你自己决定" class="headerlink" title="人生的意义，由你自己决定"></a>人生的意义，由你自己决定</h3><p>哲人：而且，我们要像跳舞一样认真过好作为刹那的“此时此刻”，既不看过去也不看未来，只需要过好每一个完结的刹那。没必要与谁竞争，也不需要目的地，只要跳着，就一定会到达某一个地方。</p>
-<p>哲人：是的，请相信我！我常年与阿德勒思想为伴，逐渐发现了一件事情。</p>
-<p>青年：什么？</p>
-<p>哲人：那就是“一个人的力量很大”。不！应该说是“我的力量无穷大”。</p>
-<p>青年：怎么回事呢？</p>
-<p>哲人：也就是，如果“我”改变，“世界”就会改变。世界不是靠他人改变而只能靠“我”来改变。在了解了阿德勒心理学的我的眼中，世界已经不是曾经的世界了。</p>
-<p>青年：如果我改变，世界也会改变。我之外的任何人都不会为我改变世界……</p>
-<p>哲人：这就类似于常年近视的人初次戴上眼镜时的冲击。原本模糊的世界轮廓一下子变得清晰起来，就连颜色也鲜艳了许多。而且，不是视野的一部分变得清晰，而是能够看到的一切世界都变得清晰起来。我想你如果能够有同样的体验，那一定会无比幸福。</p>
-<p>哲人：再送给你一句阿德勒的话：“必须有人开始。即使别人不合作，那也与你无关。我的意见就是这样。应该由你开始，不用去考虑别人是否合作。”</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>知识框架</title>
+      <link href="/2024/11/28/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/"/>
+      <url>/2024/11/28/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="知识框架"><a href="#知识框架" class="headerlink" title="知识框架"></a>知识框架</h1><p>todo 有空就整理加下</p>]]></content>
+      
+      
       <categories>
-        <category>读书笔记</category>
+          
+          <category> 知识框架 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>知识框架</title>
-    <url>/2024/11/28/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/%E7%9F%A5%E8%AF%86%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<h1 id="知识框架"><a href="#知识框架" class="headerlink" title="知识框架"></a>知识框架</h1><p>todo 有空就整理加下</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>挑战-反馈-挑战（记录）</title>
+      <link href="/2024/11/28/%E6%80%9D%E8%80%83/%E6%8C%91%E6%88%98-%E5%8F%8D%E9%A6%88-%E6%8C%91%E6%88%98%EF%BC%88%E8%AE%B0%E5%BD%95%EF%BC%89/"/>
+      <url>/2024/11/28/%E6%80%9D%E8%80%83/%E6%8C%91%E6%88%98-%E5%8F%8D%E9%A6%88-%E6%8C%91%E6%88%98%EF%BC%88%E8%AE%B0%E5%BD%95%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="挑战-反馈-挑战（记录）"><a href="#挑战-反馈-挑战（记录）" class="headerlink" title="挑战-反馈-挑战（记录）"></a>挑战-反馈-挑战（记录）</h1><h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><p>这里记录更加近一步详细的点</p><table><thead><tr><th align="left">挑战（行动）</th><th align="left">反馈</th><th align="left">挑战（改进后的行动）</th><th align="left">记录时间</th></tr></thead><tbody><tr><td align="left">做算法题</td><td align="left">逃避故意不做</td><td align="left">固定时间做一题</td><td align="left">2024-11-28</td></tr><tr><td align="left">做算法题</td><td align="left">还是没做今天必须行动</td><td align="left">下次看到这个记录就立刻做</td><td align="left">2024-12-06</td></tr><tr><td align="left">做算法题</td><td align="left">到今天做了3道还是没有养成习惯</td><td align="left">先做简单的养成习惯</td><td align="left">2024-12-18</td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>知识框架</category>
+          
+          <category> 反馈 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>sql优化注意事项</title>
-    <url>/2024/12/06/%E7%BC%96%E7%A8%8B/%E7%AE%97%E6%B3%95/sql/SQL%20best%20practices%20%E2%80%93%20don%E2%80%99t%20compare%20count(*)%20with%200/</url>
-    <content><![CDATA[<h1 id="SQL-最佳实践-不要将-count-与-0-进行比较-自己的思考"><a href="#SQL-最佳实践-不要将-count-与-0-进行比较-自己的思考" class="headerlink" title="SQL 最佳实践 - 不要将 count(*) 与 0 进行比较 自己的思考"></a>SQL 最佳实践 - 不要将 count(*) 与 0 进行比较 自己的思考</h1><p>看到这篇文章最大的感受就是在平常开发中，容易被一些所谓的开发经验所蒙蔽。正如我在看这篇文章之前，可能也不会在意，但是通过思考作者与自己的场景相近时反思自己也有这种情况。反向其他人也有这种情况。</p>
-<blockquote>
-<p>作者：我时不时就会看到这样的东西：</p>
-</blockquote>
-<pre class="line-numbers language-none"><code class="language-none">
-SELECT u.* FROM users u
-WHERE 0 &#x3D; (SELECT COUNT(*) FROM addresses a WHERE a.user_id &#x3D; u.id);
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<blockquote>
-<p>作者：这让我有点痛苦。所以，我想，我要写写它的问题所在，以及如何避免这种结构。</p>
-</blockquote>
-<blockquote>
-<p>让我们来看看某些人在写这篇文章时是怎么想的。此查询将返回地址为零的所有用户。换句话说，就是从未提供过任何地址的用户。</p>
-</blockquote>
-<p>看来问题确实是发生在这里</p>
-<blockquote>
-<p>这有什么不好呢？毕竟，如果我们需要查找没有地址的用户，它就能完成需要做的事情？没错。不对</p>
-</blockquote>
-<p>这里似乎以为解决了问题，但是就是因为这个地方没有考虑到，大的数据量，性能问题，反思自己在之前的开发中确实也出现过这个问题，当时做的是一个活动排行榜的的功能。自己测试然后到了测试，没有测试高并发的情况导致，上线活动推广出现问题。 </p>
-<blockquote>
-<p>问题在于计算。如果一个用户有数百万个地址，会发生什么情况？Pg 会尽职尽责地统计所有地址，但随后会拒绝该行，因为其中有问题。</p>
-</blockquote>
-<blockquote>
-<p>问题是，你并不需要一百万个地址。即使有两个地址，也需要对它们进行计数，虽然时间成本会低于百万行计数，但它仍然存在，而且是 100% 的无用功。</p>
-</blockquote>
-<blockquote>
-<p>因此，问题可能是：如何正确地做这件事？很简单，有EXISTS表达式：</p>
-</blockquote>
-<pre class="line-numbers language-none"><code class="language-none">SELECT u.* FROM users u
-WHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id &#x3D; u.id);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<blockquote>
-<p>EXISTS（在本例中为 NOT EXISTS）会在找到一行后立即检查并放弃测试。无需计数。</p>
-</blockquote>
-<blockquote>
-<p>当然，在某些（大多数？）情况下，当人们使用这种结构（0 == 计数）时，有人会说：”但在我们的情况下，这并不重要，因为……”。这就是标题中 “最佳实践”的由来。一个人不应该做错事，即使在这种特殊情况下它们并不重要，至少不要养成做错事的习惯，然后在真正重要的时候不小心犯了同样的错误。</p>
-</blockquote>
-<p>这里其实有点误区要注意：<br>明知道，这样不好还是这样做了<br>不知道，这样不好这样做了 </p>
-<p>解决：<br>有意识的，那就不要养成做错事的习惯<br>无意识，做了有了反馈，不断的优化</p>
-<p>参考<br><a href="https://www.depesz.com/2024/12/01/sql-best-practices-dont-compare-count-with-0/">不要用 SQL 的 count(*) 语句与 0 比较（英文）</a></p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《小丑牌》Balatro</title>
+      <link href="/2024/11/28/%E6%B8%B8%E6%88%8F/%E3%80%8A%E5%B0%8F%E4%B8%91%E7%89%8C%E3%80%8BBalatro/"/>
+      <url>/2024/11/28/%E6%B8%B8%E6%88%8F/%E3%80%8A%E5%B0%8F%E4%B8%91%E7%89%8C%E3%80%8BBalatro/</url>
+      
+        <content type="html"><![CDATA[<h1 id="《小丑牌》Balatro"><a href="#《小丑牌》Balatro" class="headerlink" title="《小丑牌》Balatro"></a>《小丑牌》Balatro</h1><h2 id="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"><a href="#思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？" class="headerlink" title="思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？"></a>思考：国内游戏开发团队（或个人）可以从中“借鉴”什么？</h2><ol><li><strong>极简的操作提升可能存在的玩家数量</strong>：《吸血鬼幸存者》只需要玩家会移动方向、《幸运房东》只需要玩家点击按钮启动老虎机、《Balatro》有家喻户晓的扑克牌……抛开 RogueLite 属性带来的游戏复杂度不谈，游戏极简的操作降低了准入门槛，让各式各样的玩家都有机会来尝试一把，当然，这也仅仅只是一种吸引玩家的讨巧手段，并非游戏成败的关键手；</li></ol><p>2.<strong>善用“挑战-成长-挑战”循环模型</strong>：通过对系统的拆解可以发现，本作玩法本质上就是“挑战-成长-挑战”的循环模型，对于游戏，我们不能照单全抄，但经过验证的玩法模型，我们可以在此基础上做出自己的玩法迭代；</p><p>3.<strong>披上传统游戏的外衣</strong>：所谓的传统游戏，如麻将、飞行棋、象棋，甚至更近代一点的 UNO、大富翁，这些家喻户晓、经过玩法验证的游戏，是否可以跟 RogueLite 融合到一起，展现出如《小丑牌》一般熟悉又新奇的玩法体验；</p><p>4.<strong>尝试移植移动端</strong>：如此操作简单、随时随地可以开一局的游戏，也许最适合的平台就是移动端，复刻移植游戏到移动端也会是一种选择，但同时也要考虑如何跟商业化做结合，买断制与移动端的玩家并不契合。</p><blockquote><p>对游戏的玩法模型：系统的拆解 拆解动作做出全过程的记录更容易后面回过头审视思考时 更加深入了解或者再次发现问题的关键。<br>想法：2024.11.28</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>思考</category>
+          
+          <category> 游戏 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>待整理学习的文章</title>
-    <url>/2025/02/21/%E6%80%BB%E7%BB%93/%E5%BE%85%E6%95%B4%E7%90%86%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<ul>
-<li><input disabled type="checkbox"> <a href="https://mp.weixin.qq.com/s/CIzfSyZd7DOuLb-Yq_VQXQ">漫画 Transformer: 手把手用数学公式推导</a></li>
-</ul>
-<ul>
-<li><input disabled type="checkbox"> <a href="https://probability.visualized.fun/">看见概率论</a></li>
-</ul>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/11/20/%E6%B8%B8%E6%88%8F/%E6%8A%95%E7%AF%AE%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+      <url>/2024/11/20/%E6%B8%B8%E6%88%8F/%E6%8A%95%E7%AF%AE%E6%A8%A1%E6%8B%9F%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="投篮"><a href="#投篮" class="headerlink" title="投篮"></a>投篮</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自我的认知觉醒</title>
+      <link href="/2024/11/14/%E6%80%9D%E8%80%83/%E8%87%AA%E6%88%91%E7%9A%84%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92/"/>
+      <url>/2024/11/14/%E6%80%9D%E8%80%83/%E8%87%AA%E6%88%91%E7%9A%84%E8%AE%A4%E7%9F%A5%E8%A7%89%E9%86%92/</url>
+      
+        <content type="html"><![CDATA[<h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><blockquote><p>写作是头等大事，因为思考是头等大事，没有写作就没有深入思考，没有思考就只能浑浑噩噩的活下去。</p></blockquote><p>想法：2024-11-18 17:54</p><h3 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h3><blockquote><p>想法，看过了，听过了或者了解到的结果。不等于自己掌握了，只有直接实际操作了或者真实沟通了获取了反馈才会发现需要改进的问题。<br>想法：2024-11-14 18:05:00</p></blockquote><blockquote><p>做事的核心，并不是弄明白搞得好或者搞得坏，而是要在实践中把事情搞清楚。<br>想法：2024-11-18 11:28:00</p></blockquote><h3 id="挑战-反馈-挑战"><a href="#挑战-反馈-挑战" class="headerlink" title="挑战-反馈-挑战"></a>挑战-反馈-挑战</h3><blockquote><p>挑战-反馈-挑战 对这里底层逻辑拆解 针对在做不同的事时可以转换不同的模型<br>编程：编程-运行相关问题出现反思-编程<br>游戏：挑战-反馈-挑战（这里游戏做的是最好了的对于记录和反馈）<br>篮球：打-记录发现问题不足-针对训练<br>健身：运动-身体反馈-针对训练<br>写作：发现点子写作-反思-再进行写作<br>行动-反馈（有意识的这里大多数是无意识的情况或者低反馈）-行动<br>反馈：这里很重要！！（优秀的反馈大多数情况就是提供价值的地方 像是 教练，专家等等）<br>想法：2024-11-28 17:56:00</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>待整理</category>
+          
+          <category> 思考 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>未来属于那些有想法、还能动手去做的人</title>
-    <url>/2025/02/19/%E6%80%9D%E8%80%83/%E6%9C%AA%E6%9D%A5%E5%B1%9E%E4%BA%8E%E9%82%A3%E4%BA%9B%E6%9C%89%E6%83%B3%E6%B3%95%E3%80%81%E8%BF%98%E8%83%BD%E5%8A%A8%E6%89%8B%E5%8E%BB%E5%81%9A%E7%9A%84%E4%BA%BA/</url>
-    <content><![CDATA[<h1 id="未来属于那些有想法、还能动手去做的人"><a href="#未来属于那些有想法、还能动手去做的人" class="headerlink" title="未来属于那些有想法、还能动手去做的人"></a>未来属于那些有想法、还能动手去做的人</h1><blockquote>
-<p>人的智力高低，未来不会像现在这样重要，AI 可以弥补人的智力。提出正确问题的能力，在未来比找到答案的能力更重要。</p>
-</blockquote>
-<p>OpenAI 公司的 CEO。这令人想到，中国的应试教育考察的是，谁能记住最多的正确答案，真的需要改了。</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>十年学会编程</title>
+      <link href="/2024/08/22/%E6%80%9D%E8%80%83/%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B/"/>
+      <url>/2024/08/22/%E6%80%9D%E8%80%83/%E5%8D%81%E5%B9%B4%E5%AD%A6%E4%BC%9A%E7%BC%96%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Teach-Yourself-Programming-in-Ten-Years"><a href="#Teach-Yourself-Programming-in-Ten-Years" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h3><h4 id="Peter-NorviG"><a href="#Peter-NorviG" class="headerlink" title="Peter NorviG"></a>Peter NorviG</h4><h3 id="Why-is-everyone-in-such-a-rush？"><a href="#Why-is-everyone-in-such-a-rush？" class="headerlink" title="Why is everyone in such a rush？"></a>Why is everyone in such a rush？</h3><p>为何每个人都急于求成?<br>Walk into any bookstore, and you’ll see how to Teach Yourself Java in 24 Hours alongside endless variations offering to teach C, SQL, Ruby, Algorithms, and so on in a few days or hours. The Amazon advanced search for [title: teach, yourself, hours, since: 2000 and found 512 such books. Of the top ten, nine are programming books (the other is about bookkeeping). Similar results come from replacing “teach yourself” with “learn” or “hours” with “days.”</p><p>随便走进一家书店，都会看到类似《24小时学会Java》这样的书，旁边摆着的是大量诸如在几天，几小时之内学会C语言，SQL，Ruby以及算法这样的书。如果使用Amazon上的高级搜索，使用title: teach, yourself, hours, since: 2000这个关键字来搜索，将会返回512本书。最靠前的10本书中，有9本是编程的书（唯一的例外是一本记账的书）。如果把关键字”teach yourself”替换成”learn”，或者将”hours”替换成”days”，返回的结果大同小异。</p><p>The conclusion is that either people are in a big rush to learn about programming, or that programming is somehow fabulously easier to learn than anything else. Felleisen et al. give a nod to this trend in their book How to Design Programs, when they say “Bad programming is easy. Idiots can learn it in 21 days, even if they are dummies.” The Abtruse Goose comic also had their take.</p><p>很明显，人们在学习编程的时候喜欢大跃进，或者认为编程比起其它事情来，是小菜一碟的事。Felleisen在他的书《How to Design Program》里说：“编烂程一点也不难。傻瓜也可以在21天内学会，即使他们是傻逼。”在搞笑漫画网站Abtruse Goose也在这个漫画中表达了同样的看法。</p><p>Let’s analyze what a title like Teach Yourself C++ in 24 Hours could mean:</p><p>我们来看看类似《24小时自学C++》这种标题党，到底说的什么鬼东西：</p><p><strong>Teach Yourself</strong>: In 24 hours you won’t have time to write several significant programs, and learn from your successes and failures with them. You won’t have time to work with an experienced programmer and understand what it is like to live in a C++ environment. In short, you won’t have time to learn much. So the book can only be talking about a superficial familiarity, not a deep understanding. As Alexander Pope said, a little learning is a dangerous thing.<br><strong>自学</strong>: 24小时之内，你没有时间写几个有意义的程序，也就无法从成功或失败中学到经验。24小时之内，你没有时间和一个有经验的程序员合作交流，也就无从理解使用C++编程的真实场景。简单来说，时间太短，你啥也学不到。因此，有这种干货标题的速成书，只是让你走马观花的瞧一下，绝非深入的理解。18世纪的英国诗人亚历山大·蒲柏[……1]曾说过：“一知半解”是一件危险的事情。[……1]：这个哥哥还给牛顿写了最出名的墓志铭之一：“自然和自然律隐没在黑暗中；上帝说，让牛顿去吧！遂一片光明。”<br><strong>C++</strong>: In 24 hours you might be able to learn some of the syntax of C++ (if you already know another language), but you couldn’t learn much about how to use the language. In short, if you were, say, a Basic programmer, you could learn to write programs in the style of Basic using C++ syntax, but you couldn’t learn what C++ is actually good (and bad) for. So what’s the point? Alan Perlis once said: “A language that doesn’t affect the way you think about programming, is not worth knowing”. One possible point is that you have to learn a tiny bit of C++ (or more likely, something like JavaScript or Processing) because you need to interface with an existing tool to accomplish a specific task. But then you’re not learning how to program; you’re learning to accomplish that task.<br><strong>C++</strong>: (如果你有一定的编程基础)，在24小时之内，能学会一些C++的语法，但是，仅此而已了。如果你以前是个Basic语言的程序员，你可以写一些语法是C++，但是风格是Basic的程序，但是，24小时之内，C++语言的精华或糟粕，你都学不到。重点是什么？(首界图灵奖得主)Alan Perlis曾说过：“不能影响你编程思维方式的语言，是不值得学习的。”一个更加可能的场景是，在工作中，你不得不学习C++（或者JavaScript，Processing之类）的一小部分，来调用一些原有的接口，完成某个特定的任务。这种情况下，表面上说是在学习如何编程，其实只是在应付一下手上的活。<br><strong>in 24 Hours</strong>: Unfortunately, this is not enough, as the next section shows.<br><strong>24小时内</strong>:很不幸，24小时太少了，原因下面告诉你。</p><h3 id="Teach-Yourself-Programming-in-Ten-Years-1"><a href="#Teach-Yourself-Programming-in-Ten-Years-1" class="headerlink" title="Teach Yourself Programming in Ten Years"></a>Teach Yourself Programming in Ten Years</h3><h3 id="十年学会编程"><a href="#十年学会编程" class="headerlink" title="十年学会编程"></a>十年学会编程</h3><p>Researchers (Bloom (1985), Bryan &amp; Harter (1899), Hayes (1989), Simmon &amp; Chase (1973)) have shown it takes about ten years to develop expertise in any of a wide variety of areas, including chess playing, music composition, telegraph operation, painting, piano playing, swimming, tennis, and research in neuropsychology and topology. The key is deliberative practice: not just doing it again and again, but challenging yourself with a task that is just beyond your current ability, trying it, analyzing your performance while and after doing it, and correcting any mistakes. Then repeat. And repeat again. There appear to be no real shortcuts: even Mozart, who was a musical prodigy at age 4, took 13 more years before he began to produce world-class music. In another genre, the Beatles seemed to burst onto the scene with a string of #1 hits and an appearance on the Ed Sullivan show in 1964. But they had been playing small clubs in Liverpool and Hamburg since 1957, and while they had mass appeal early on, their first great critical success, Sgt. Peppers, was released in 1967.</p><p>研究表明，想在任何领域成为专家，大概需要10年的时间，这些领域包括下棋，作曲，发电报，弹钢琴，游泳，打网球，研究神经心理学和拓扑学。关键在于有针对性的训练，而不是漫无目的重复，训练的内容要刚好超过你现有的水平，练习以后要分析你的表现，改正发现的错误，然后重复，再重复。没有什么捷径可走，即使是Mozart，一个4岁就能弹琴的音乐天才，也是用了13年的时间，才真正的写出世界级的音乐作品。在流行音乐上，Beatles好像是在1964年访美期间一夜成名的。实际上，他们从1957年就已经开始在利物浦和汉堡的小酒馆里唱歌了，他们组建乐队的时间就更早了，他们第一张取得巨大成功的专辑《佩帕军士》，是在1967年发行的。</p><p>Malcolm Gladwell has popularized the idea, although he concentrates on 10,000 hours, not 10 years. Henri Cartier-Bresson (1908-2004) had another metric: “Your first 10,000 photographs are your worst.” (He didn’t anticipate that with digital cameras, some people can reach that mark in a week.) True expertise may take a lifetime: Samuel Johnson (1709-1784) said “Excellence in any department can be attained only by the labor of a lifetime; it is not to be purchased at a lesser price.” And Chaucer (1340-1400) complained “the lyf so short, the craft so long to lerne.” Hippocrates (c. 400BC) is known for the excerpt “ars longa, vita brevis”, which is part of the longer quotation “Ars longa, vita brevis, occasio praeceps, experimentum periculosum, iudicium difficile”, which in English renders as “Life is short, [the] craft long, opportunity fleeting, experiment treacherous, judgment difficult.” Of course, no single number can be the final answer: it doesn’t seem reasonable to assume that all skills (e.g., programming, chess playing, checkers playing, and music playing) could all require exactly the same amount of time to master, nor that all people will take exactly the same amount of time. As Prof. K. Anders Ericsson puts it, “In most domains it’s remarkable how much time even the most talented individuals need in order to reach the highest levels of performance. The 10,000 hour number just gives you a sense that we’re talking years of 10 to 20 hours a week which those who some people would argue are the most innately talented individuals still need to get to the highest level.”</p><p>马尔科姆·格拉德威尔让这个理论广为人知，虽然他说的是另一个说法，10，000个小时而不是10年(这本书有中文翻译版异类 : 不一样的成功启示录)。法国现实主义摄影大师亨利·卡蒂埃-布列松有另外一个标准，他说你的前10,000张照片是你最差的。(当然，这个摄影大师没有意识到数码相机的出现，很多人能在一周内就可以拍10,000张照片)真正的大师要用一生来完成，英国作家，文学评论家和诗人塞缪尔·约翰逊说过：“在任何领域取得卓越的成就都要用一生的努力，不要妄想可以投机取巧。”英国的诗人乔叟也曾经说过：”吾生也有涯 而知也无涯。”同样，公元前400年的希波克拉底也表达过类似的意思，他也认为艺术没有止境，生命却有尽头。他说的这句话有个更长的版本，翻译成英语的意思是：“生命有尽头，艺术无止境，机遇转瞬即逝，练功走火入魔，决定优柔寡断。”当然，不会有一个确定的答案告诉你需要多长时间，毕竟，假设掌握所有的技能(比如编程，下棋，跳棋和音乐)需要相同的时间也不合适，不同的人也会用不同的时间。K.Anders Ericsson教授说过：“值得注意的是，在大多数领域，即使你是个天才，要达到专家级别的高水平仍然需要时间。10，000个小时只是给你一个概念，一个天才，如果每周练习10到20个小时的时间，仍然需要数年时间才能达到专家级别的水平。”</p><h3 id="So-You-Want-to-be-a-Programmer"><a href="#So-You-Want-to-be-a-Programmer" class="headerlink" title="So You Want to be a Programmer"></a>So You Want to be a Programmer</h3><h3 id="所以你想成为一个程序员"><a href="#所以你想成为一个程序员" class="headerlink" title="所以你想成为一个程序员"></a>所以你想成为一个程序员</h3><p>Here’s my recipe for programming success:</p><p>这是我编程成功的秘笈:</p><p>Get interested in programming, and do some because it is fun. Make sure that it keeps being enough fun so that you will be willing to put in your ten years/10,000 hours.</p><p>要对编程感兴趣，要从中能获得快乐。保证编程足够有趣，这样才能让你花10年的时间或者10，000个小时在上面也不觉得枯燥无味。</p><p>Program. The best kind of learning is learning by doing. To put it more technically, “the maximal level of performance for individuals in a given domain is not attained automatically as a function of extended experience, but the level of performance can be increased even by highly experienced individuals as a result of deliberate efforts to improve.” (p. 366) and “the most effective learning requires a well-defined task with an appropriate difficulty level for the particular individual, informative feedback, and opportunities for repetition and corrections of errors.” (p. 20-21) The book Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life is an interesting reference for this viewpoint.</p><p>动手编程。最好的学习方法是边学边做。常言道：“人的最高功力并不能通过做一天和尚撞一天钟这样的重复经验获得，但是，最高的功力可以通过有针对性的日复一日年复一年的训练来获得。”并且，“最有效果的学习需要有针对性的任务，这些任务的难度还要因人而异，并且有合理的反馈渠道，并能够根据这些反馈作出相应的改进。”这些观点引用自《Cognition in Practice: Mind, Mathematics, and Culture in Everyday Life》这本书里。</p><p>Talk with other programmers; read other programs. This is more important than any book or training course.</p><p>和其他的程序员交流；阅读别人的代码。这比看书或者参加培训课程要重要。</p><p>If you want, put in four years at a college (or more at a graduate school). This will give you access to some jobs that require credentials, and it will give you a deeper understanding of the field, but if you don’t enjoy school, you can (with some dedication) get similar experience on your own or on the job. In any case, book learning alone won’t be enough. “Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter” says Eric Raymond, author of The New Hacker’s Dictionary. One of the best programmers I ever hired had only a High School degree; he’s produced a lot of greatsoftware, has his own news group, and made enough in stock options to buy his own nightclub.</p><p>如果你愿意，在大学里花上四年时间（或者再读个研）。这能让你获得一些工作机会，也能让你在这个领域有更深入的了解。但是，如果你一上学就头痛，直接去工作也能获得相同的经验。无论是什么情况，读死书肯定是不行的。计算机科学不会让你成为编程专家，就像学习画笔和颜料不可能让你成为画家一样。这是Eric　Raymond说的，他是New Hacker’s Dictionary字典的作者。我雇佣过的最好的程序员是个高中毕业的学生，他创造了伟大的软件，Mozilla，他拥有自己的新闻组，赚到了足够多的钱买了自己的酒吧。</p><p>Work on projects with other programmers. Be the best programmer on some projects; be the worst on some others. When you’re the best, you get to test your abilities to lead a project, and to inspire others with your vision. When you’re the worst, you learn what the masters do, and you learn what they don’t like to do (because they make you do it for them).</p><p>和其他的程序员一起参与一些项目。在一些项目中成为最出色的程序员；在另一些项目中当最差劲的程序员。在当最出色的程序员的时候，要测试你领导项目的能力，用你的视野来启发别人。如果你是项目中最差的那个，要学习牛人们在做什么，如果他们不喜欢做的，你要拿来做。</p><p>Work on projects after other programmers. Understand a program written by someone else. See what it takes to understand and fix it when the original programmers are not around. Think about how to design your programs to make it easier for those who will maintain them after you.</p><p>接手并推进别人的项目。理解其他人写的代码。如果别人有没有考虑到的问题，你能理解并修复这些问题。思考并设计你的软件，让这些软件容易被他人维护。</p><p>Learn at least a half dozen programming languages. Include one language that emphasizes class abstractions (like Java or C++), one that emphasizes functional abstraction (like Lisp or ML or Haskell), one that supports syntactic abstraction (like Lisp), one that supports declarative specifications (like Prolog or C++ templates), and one that emphasizes parallelism (like Clojure or Go).</p><p>学习至少6种(我不太清楚英语中的half dozen是什么意思，是虚指还是就是6种)编程语言。这6种语言中，包括一种支持抽象类的(例如Java或者C++)，一种支持函数的(Lisp, ML或者Haskell)，一种支持语义抽象的(Lisp)，一种支持声明规范的(Prolog或者C++模板)，还有一种支持并发的(Clojure或Go)。</p><p>Remember that there is a “computer“ in “computer science”. Know how long it takes your computer to execute an instruction, fetch a word from memory (with and without a cache miss), read consecutive words from disk, and seek to a new location on disk. (Answers here.)</p><p>记住，在“计算机科学”中在“计算机”这个词语。理解执行一条指令要花多长时间，从内存中取一个字（要考虑缓存有没有命中的情况）要多久，从硬盘中连续读字节要多久，在硬盘中寻址定位要多久？</p><p>Get involved in a language standardization effort. It could be the ANSI C++ committee, or it could be deciding if your local coding style will have 2 or 4 space indentation levels. Either way, you learn about what other people like in a language, how deeply they feel so, and perhaps even a little about why they feel so.</p><p>参加语言的标准化工作。这可能是有关 ANSI C++ 委员会，也可能是缩进的风格是两格缩进或四格缩进。无论如何，你能从中学到其他人对语言的喜好，也能了解到他们热爱的程度，甚至也许能知道一点他们为什么他们会这样认为？</p><p>Have the good sense to get off the language standardization effort as quickly as possible.</p><p>知道何时能从标准化语言的工作中脱身，越快越好。</p><p>With all that in mind, its questionable how far you can get just by book learning. Before my first child was born, I read all the How To books, and still felt like a clueless novice. 30 Months later, when my second child was due, did I go back to the books for a refresher? No. Instead, I relied on my personal experience, which turned out to be far more useful and reassuring to me than the thousands of pages written by experts.</p><p>很难说能从书本中学到多少东西。我第一个小孩出生的时候，我读了所有的“如何做”系列的书，但是，没有什么头绪。30个月以后，当我的第二个孩子出生，我还要重温一下那些书么？当然不用了！我都已经是老司机了，我完全靠我自己的经验，事实也证明我自己的经验要胜过那些专家们写的上千页的书。</p><p>Fred Brooks, in his essay No Silver Bullet identified a three-part plan for finding great software designers:</p><p>弗雷德·布鲁克斯在他的书《没有银弹》中给出了三条建议：</p><p>Systematically identify top designers as early as possible.</p><p>尽早地系统地识别出顶级设计师</p><p>Assign a career mentor to be responsible for the development of the prospect and carefully keep a career file.</p><p>每个人给分配一个职业规划的导师</p><p>Provide opportunities for growing designers to interact and stimulate each other.</p><p>让成长中的设计师有机会互相切磋武艺</p><p>This assumes that some people already have the qualities necessary for being a great designer; the job is to properly coax them along. Alan Perlis put it more succinctly: “Everyone can be taught to sculpt: Michelangelo would have had to be taught how not to. So it is with the great programmers”. Perlis is saying that the greats have some internal quality that transcends their training. But where does the quality come from? Is it innate? Or do they develop it through diligence? As Auguste Gusteau (the fictional chef in Ratatouille) puts it, “anyone can cook, but only the fearless can be great.” I think of it more as willingness to devote a large portion of one’s life to deliberative practice. But maybe fearless is a way to summarize that. Or, as Gusteau’s critic, Anton Ego, says: “Not everyone can become a great artist, but a great artist can come from anywhere.”</p><p>此处假设有一些人天生有成为伟大设计师的潜质，然后，就是正确的去引导他们。艾伦·佩里斯一针见血地说：”假如每个人都可以学会雕刻，那就得教米开朗基罗哪些事不要去做。对于伟大程序员，也是如此。”Perlis认为，伟大的人有一种内在的特质，这种特质往往比接受训练更重要。但是，这些特质是从哪里来的呢？与生俱来的？还是通过后天勤奋而来的？正如 动画片《料理鼠王》里的幻象大厨Auguste Gusteau说的那样：“谁都能做饭，但只有那些无所畏惧的人才能成为大厨！”我认为“把你生命中的大部分时间花在有针对性的练习上”这种精神，看作一种自愿奉献的精神！但或许“无所畏惧”才是体现这种精神的真谛。或者，就像是《料理鼠王》里那个与 Gusteau 作对的刻薄的美食评论家 Anton Ego 说的那样：“不是任何人都能成为伟大的艺术家，不过，伟大的艺术家可以来自任何地方。”</p><p>So go ahead and buy that Java/Ruby/Javascript/PHP book; you’ll probably get some use out of it. But you won’t change your life, or your real overall expertise as a programmer in 24 hours or 21 days. How about working hard to continually improve over 24 months? Well, now you’re starting to get somewhere…</p><p>所以，尽管买本 Java/Ruby/Javascript/PHP 的书吧。你可能会从中学到点儿有用的东西。但作为一个程序员，在 21 天内或 24 小时内改变你的人生，或者提高你实际的编程水平，这是不可能的。你尝试过连续 24 个月不间断的努力提高自己么？好吧，好吧，你该上路了……</p>]]></content>
+      
+      
       <categories>
-        <category>思考</category>
+          
+          <category> 文章 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>段位瓶颈阶段</title>
-    <url>/2025/02/05/%E6%B8%B8%E6%88%8F/PVP%E6%B8%B8%E6%88%8F%E7%93%B6%E9%A2%88%E9%98%B6%E6%AE%B5/</url>
-    <content><![CDATA[<h1 id="段位瓶颈阶段"><a href="#段位瓶颈阶段" class="headerlink" title="段位瓶颈阶段"></a>段位瓶颈阶段</h1><blockquote>
-<p>首先理解为什么关注段位，更高段位带了更高优质的反馈的概率，更高优质的反馈体现价值。<br>2025.02.10 记录</p>
-</blockquote>
-<p>DeepSeek 给出的回复</p>
-<p>在PVP（玩家对玩家）游戏中，段位瓶颈是许多玩家都会遇到的常见问题。当你发现自己在一个段位停滞不前时，可能是由于技术、心态、策略或游戏理解等方面存在不足。以下是一些应对段位瓶颈的有效方法：</p>
-<ol>
-<li>分析问题，找到瓶颈原因<br>复盘对局：回顾自己的游戏录像，分析失败的原因。是操作失误、决策错误，还是对对手的策略不了解？</li>
-</ol>
-<p>识别弱点：明确自己的短板，比如反应速度、地图意识、资源管理、团队配合等。</p>
-<p>对比高手：观看高水平玩家的对局或直播，学习他们的操作、决策和思路。</p>
-<ol start="2">
-<li>提升技术<br>练习基本功：确保自己的基础操作（如瞄准、走位、技能释放）达到当前段位的标准。</li>
-</ol>
-<p>针对性训练：如果某个技术环节薄弱（如枪法、连招、反应速度），可以通过训练模式或自定义练习来强化。</p>
-<p>熟悉角色/英雄：如果你使用的是特定角色或英雄，深入研究其技能机制、连招技巧和应对不同对手的策略。</p>
-<ol start="3">
-<li>优化策略和意识<br>学习游戏机制：深入了解游戏的规则、资源分布、地图机制等，确保自己不会因为基础知识不足而吃亏。</li>
-</ol>
-<p>提升地图意识：时刻关注小地图，预判对手的动向，避免被抓单或错过重要资源。</p>
-<p>团队配合：如果是团队游戏，学会与队友沟通和协作，明确分工，避免单打独斗。</p>
-<ol start="4">
-<li>调整心态<br>接受瓶颈期：段位瓶颈是正常现象，不要因此焦虑或气馁。把它当作提升自己的机会。</li>
-</ol>
-<p>避免情绪化：输掉对局后，不要急于开始下一局，先冷静下来，分析问题。</p>
-<p>设定小目标：不要只盯着段位，可以设定一些小目标，比如“这局我要减少失误”或“我要提高KDA”。</p>
-<ol start="5">
-<li>学习对手和版本<br>了解对手：研究当前段位常见的对手策略和套路，找到应对方法。</li>
-</ol>
-<p>适应版本：关注游戏版本的更新，了解强势角色、装备或战术，及时调整自己的玩法。</p>
-<ol start="6">
-<li>寻求外部帮助<br>请教高手：向比你更强的玩家请教，或者加入游戏社区，与其他玩家交流经验。</li>
-</ol>
-<p>观看教学视频：很多高水平玩家会分享他们的技巧和心得，通过学习可以快速提升。</p>
-<p>找队友组排：如果是团队游戏，找到志同道合的队友一起排位，可以减少匹配到不靠谱队友的概率。</p>
-<ol start="7">
-<li>适当休息<br>避免疲劳作战：长时间游戏会导致注意力下降，影响发挥。适当休息，保持清醒的头脑。</li>
-</ol>
-<p>换游戏放松：如果长时间卡在瓶颈，可以尝试玩其他游戏或做其他事情，换换心情。</p>
-<ol start="8">
-<li>长期坚持<br>保持耐心：突破瓶颈需要时间，不要急于求成。每天进步一点点，最终会迎来质变。</li>
-</ol>
-<p>记录进步：记录自己的对局数据或心得，看到自己的成长会更有动力。</p>
-<p>总结<br>段位瓶颈是PVP游戏中的常态，关键在于找到问题、针对性改进，并保持积极的心态。通过技术提升、策略优化和心态调整，你一定能够突破瓶颈，达到更高的段位！</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>人生的意义，由你自己决定</title>
+      <link href="/2021/10/08/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89%EF%BC%8C%E7%94%B1%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%86%B3%E5%AE%9A/"/>
+      <url>/2021/10/08/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E7%9A%84%E6%84%8F%E4%B9%89%EF%BC%8C%E7%94%B1%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%86%B3%E5%AE%9A/</url>
+      
+        <content type="html"><![CDATA[<h3 id="人生中最大的谎言"><a href="#人生中最大的谎言" class="headerlink" title="人生中最大的谎言"></a>人生中最大的谎言</h3><p>哲人：人生中最大的谎言就是不活在“此时此刻”。纠结过去、关注未来，把微弱而模糊的光打向人生整体，自认为看到了些什么。你之前就一直忽略“此时此刻”，只关注根本不存在的过去和未来。对自己的人生和无可替代的刹那撒了一个大大的谎言。</p><p>我：想到在读了《被讨厌的勇气》之前，发自心底的遗憾，真想早一些了解。早上10年，或5年，我可以多多珍惜身边的人，获得更多感悟和快乐！</p><h3 id="人生的意义，由你自己决定"><a href="#人生的意义，由你自己决定" class="headerlink" title="人生的意义，由你自己决定"></a>人生的意义，由你自己决定</h3><p>哲人：而且，我们要像跳舞一样认真过好作为刹那的“此时此刻”，既不看过去也不看未来，只需要过好每一个完结的刹那。没必要与谁竞争，也不需要目的地，只要跳着，就一定会到达某一个地方。</p><p>哲人：是的，请相信我！我常年与阿德勒思想为伴，逐渐发现了一件事情。</p><p>青年：什么？</p><p>哲人：那就是“一个人的力量很大”。不！应该说是“我的力量无穷大”。</p><p>青年：怎么回事呢？</p><p>哲人：也就是，如果“我”改变，“世界”就会改变。世界不是靠他人改变而只能靠“我”来改变。在了解了阿德勒心理学的我的眼中，世界已经不是曾经的世界了。</p><p>青年：如果我改变，世界也会改变。我之外的任何人都不会为我改变世界……</p><p>哲人：这就类似于常年近视的人初次戴上眼镜时的冲击。原本模糊的世界轮廓一下子变得清晰起来，就连颜色也鲜艳了许多。而且，不是视野的一部分变得清晰，而是能够看到的一切世界都变得清晰起来。我想你如果能够有同样的体验，那一定会无比幸福。</p><p>哲人：再送给你一句阿德勒的话：“必须有人开始。即使别人不合作，那也与你无关。我的意见就是这样。应该由你开始，不用去考虑别人是否合作。”</p>]]></content>
+      
+      
       <categories>
-        <category>游戏</category>
+          
+          <category> 读书笔记 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>低代码编程对比AI编程</title>
-    <url>/2025/03/18/%E6%80%9D%E8%80%83/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B%E5%AF%B9%E6%AF%94AI%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="低代码编程对比AI编程"><a href="#低代码编程对比AI编程" class="headerlink" title="低代码编程对比AI编程"></a>低代码编程对比AI编程</h1><p>我对 AI 的看法是，AI 本身不会创造，需要人类与它共同创造，创造的结果好坏与使用它的人的质量高度相关。</p>
-<p>与 AI 交谈不像在与一个人交谈，而像在与人类的集体思维交谈。AI 不应该让你减少思考，而应该帮助你增加思考，AI 是你的杠杆，可以让你拓展自己。</p>
-<p>– Alex Komoroske，美国程序员</p>
-<blockquote>
-<p>增加思考真的很有必要，首先对于每天上班工作，对外接触的一些商业思想，模式真的很少。其中很多细节不能只是凭空想象的或者忽略的，</p>
-</blockquote>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>李开复自传</title>
+      <link href="/2018/12/24/%E6%80%9D%E8%80%83/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/"/>
+      <url>/2018/12/24/%E6%80%9D%E8%80%83/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E7%94%9F%E4%B8%8D%E5%96%9C%E6%AC%A2%E4%B8%8A%E5%AD%A6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="李开复自传"><a href="#李开复自传" class="headerlink" title="李开复自传"></a>李开复自传</h3><blockquote><p>   用你的梦想和理想引领你的一生，要用感恩真诚助人圆梦的心态引领你的一生，要用执着无惧乐观的态度引领你的一生。如果你做到了这些，因缘会给你一切你所应得的。<br>   不要被信条所惑，盲从信条就是活在别人思考的结果里。不要让别人的意见淹没了你内在的心声。最重要的，拥有跟随内心与直觉的勇气，你的内心与直觉多少已经知道那你真正想要成为什么样的人，任何其他事物都是次要的。</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>思考</category>
+          
+          <category> 读书笔记 </category>
+          
       </categories>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 学习方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
