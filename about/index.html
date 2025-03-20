@@ -135,7 +135,7 @@
   import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
   const walineServerURL = 'https://blogwaline-ki9f35wkj-lwy7es-projects.vercel.app';
-  const walineOptions = {"placeholder":"说点什么吧","visitor":true,"emojiCDN":"https://unpkg.com/@waline/emojis@1.2.0/bmoji","emojiSize":64,"pageSize":10,"avatar":"mp","lang":"zh"};
+  const walineOptions = {"placeholder":"说点什么吧","visitor":true,"emojiCDN":"https://unpkg.com/@waline/emojis@1.2.0/bmoji","emojiSize":64,"pageSize":10,"avatar":"mp","lang":"zh","cors":true,"corsOrigin":"https://lwy7es.github.io"};
 
   init({
     el: '#sea-waline',
