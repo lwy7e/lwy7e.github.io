@@ -281,10 +281,7 @@
 <blockquote>
 <p>作者：我时不时就会看到这样的东西：</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">
-SELECT u.* FROM users u
-WHERE 0 &#x3D; (SELECT COUNT(*) FROM addresses a WHERE a.user_id &#x3D; u.id);
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">SELECT u.* FROM users u</span><br><span class="line">WHERE 0 = (SELECT COUNT(*) FROM addresses a WHERE a.user_id = u.id);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>作者：这让我有点痛苦。所以，我想，我要写写它的问题所在，以及如何避免这种结构。</p>
@@ -306,8 +303,7 @@ WHERE 0 &#x3D; (SELECT COUNT(*) FROM addresses a WHERE a.user_id &#x3D; u.id);
 <blockquote>
 <p>因此，问题可能是：如何正确地做这件事？很简单，有EXISTS表达式：</p>
 </blockquote>
-<pre class="line-numbers language-none"><code class="language-none">SELECT u.* FROM users u
-WHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id &#x3D; u.id);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT u.* FROM users u</span><br><span class="line">WHERE NOT EXISTS (SELECT FROM addresses a WHERE a.user_id = u.id);</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>EXISTS（在本例中为 NOT EXISTS）会在找到一行后立即检查并放弃测试。无需计数。</p>
