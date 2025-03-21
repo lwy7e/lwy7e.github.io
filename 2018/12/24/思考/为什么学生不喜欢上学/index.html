@@ -166,29 +166,46 @@
 
 
   
-    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
 
-<link rel="stylesheet" href="/css/plugins/waline.css">
-
-
-<section id="sea-comments" class="sea-page-card-wrapper">
-  <div id="sea-waline"></div>
-</section>
-
-<script type="module">
-  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-
-  const walineServerURL = 'https://blogwaline-8y9bnmtyp-lwy7es-projects.vercel.app';
-  const walineOptions = null;
-
-  init({
-    el: '#sea-waline',
-    serverURL: walineServerURL,
-    ...walineOptions,
-  });
-</script>
   
+    <section id="giscus-comment" class="sea-page-card-wrapper"></section>
 
+<script>
+  function createGusicScript() {
+    const container = document.querySelector("#giscus-comment");
+    const themeKey = getThemeKey();
+    const giscus_theme = themeKey || THEME_MODE_LIGHT;
+    const giscus_lang = "zh-Hans" || "en";
+    const giscus_repo = "lwy7e/docs";
+    const giscus_repo_id = "R_kgDOOMTLzw";
+    const giscus_category = "Announcements";
+    const giscus_category_id = "DIC_kwDOOMTLz84CoTxG";
+    const giscus_mapping = "pathname";
+    const giscus_strict = "";
+    const giscus_reactions_enabled = "1";
+    const giscus_emit_metadata = "0";
+    const giscus_input_position = "bottom";
+    const giscus_loading = "";
+    let script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.setAttribute("data-repo", giscus_repo);
+    script.setAttribute("data-repo-id", giscus_repo_id);
+    script.setAttribute("data-category", giscus_category);
+    script.setAttribute("data-category-id", giscus_category_id);
+    script.setAttribute("data-mapping", giscus_mapping);
+    script.setAttribute("data-strict", giscus_strict);
+    script.setAttribute("data-reactions-enabled", giscus_reactions_enabled);
+    script.setAttribute("data-emit-metadata", giscus_emit_metadata);
+    script.setAttribute("data-input-position", giscus_input_position);
+    script.setAttribute("data-theme", giscus_theme);
+    script.setAttribute("data-lang", giscus_lang);
+    script.setAttribute("data-loading", giscus_loading);
+    script.setAttribute("crossorigin", "anonymous");
+    script.async = true;
+    container && container.appendChild(script);
+  }
+  createGusicScript();
+</script>
   
 
   </main>
